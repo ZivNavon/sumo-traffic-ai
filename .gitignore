@@ -1,0 +1,16 @@
+# SUMO run artifacts
+sim/results/*_tripinfo.xml
+sim/scenarios/_bg.rou.xml
+net_single/_runs/
+net/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
