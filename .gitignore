@@ -18,3 +18,7 @@ Thumbs.db
 J2
 moves
 trips.trips.xml
+
+# Private / tooling
+ofek_skills/
+CLAUDE.md
