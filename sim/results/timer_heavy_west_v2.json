@@ -1,0 +1,16 @@
+{
+  "experiment": "timer",
+  "scenario": "heavy_west_v2",
+  "sim_time": 1200,
+  "avg_waiting_time": 44.51207115628971,
+  "max_waiting_time": 296.0,
+  "avg_queue_length": 17.27970437748721,
+  "max_queue_length": 34,
+  "throughput": 787,
+  "avg_travel_time": 95.96569250317663,
+  "avg_stops_per_vehicle": 1.363405336721728,
+  "avg_pedestrian_waiting_time": 13.918798225308642,
+  "max_pedestrian_waiting_time": 52.0,
+  "avg_waiting_pedestrians": 1.0892552586696986,
+  "j1_j2_congestion_pct_time": 0.0
+}

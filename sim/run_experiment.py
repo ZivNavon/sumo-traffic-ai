@@ -21,19 +21,28 @@ from modules import config, metrics  # noqa: E402
 from controllers.timer_controller import TimerController  # noqa: E402
 from controllers.script_controller import ScriptController  # noqa: E402
 from controllers.script_controller_v0 import ScriptControllerV0  # noqa: E402
+from controllers.ai_controller import AiController  # noqa: E402
+from controllers.a2c_controller import A2CController  # noqa: E402
 
 
-def build_controller(mode):
+def build_controller(mode, scenario=None, weights=None):
+    models_dir = os.path.join(os.path.dirname(__file__), "models")
     if mode == "timer":
         return TimerController(config.CONTROLLED_JUNCTIONS)
     if mode == "script":
         return ScriptController(config.CONTROLLED_JUNCTIONS)
     if mode == "script_v0":
         return ScriptControllerV0(config.CONTROLLED_JUNCTIONS)
-    raise NotImplementedError(f"Mode '{mode}' is not implemented yet (only 'timer'/'script'/'script_v0' so far).")
+    if mode == "ai":
+        wp = os.path.join(models_dir, f"dqn_{weights}_weights.pt") if weights else None
+        return AiController(config.CONTROLLED_JUNCTIONS, scenario=scenario, weights_path=wp)
+    if mode == "a2c":
+        wp = os.path.join(models_dir, f"a2c_{weights}_weights.pt") if weights else None
+        return A2CController(config.CONTROLLED_JUNCTIONS, scenario=scenario, weights_path=wp)
+    raise NotImplementedError(f"Unknown mode: '{mode}'")
 
 
-def run(mode, scenario, gui=False, end_time=config.SIM_END_TIME):
+def run(mode, scenario, gui=False, end_time=config.SIM_END_TIME, weights=None):
     route_file = os.path.join(config.SCENARIOS_DIR, f"{scenario}.rou.xml")
     ped_file = os.path.join(config.SCENARIOS_DIR, f"{scenario}.ped.xml")
     tripinfo_file = os.path.join(config.RESULTS_DIR, f"{mode}_{scenario}_tripinfo.xml")
@@ -54,7 +63,7 @@ def run(mode, scenario, gui=False, end_time=config.SIM_END_TIME):
         "--no-warnings", "true",
     ])
 
-    controller = build_controller(mode)
+    controller = build_controller(mode, scenario=scenario, weights=weights)
     collector = metrics.MetricsCollector(mode_name=mode, scenario_name=scenario)
 
     try:
@@ -76,9 +85,11 @@ def run(mode, scenario, gui=False, end_time=config.SIM_END_TIME):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["timer", "script", "script_v0", "ai"], default="timer")
+    parser.add_argument("--mode", choices=["timer", "script", "script_v0", "ai", "a2c"], default="timer")
     parser.add_argument("--scenario", default="balanced")
     parser.add_argument("--gui", action="store_true")
     parser.add_argument("--end", type=int, default=config.SIM_END_TIME)
+    parser.add_argument("--weights", default=None,
+                        help="Weight stem override for ai/a2c, e.g. 'balanced_ms' loads dqn_balanced_ms_weights.pt")
     args = parser.parse_args()
-    run(args.mode, args.scenario, gui=args.gui, end_time=args.end)
+    run(args.mode, args.scenario, gui=args.gui, end_time=args.end, weights=args.weights)

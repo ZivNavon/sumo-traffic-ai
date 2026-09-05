@@ -1,0 +1,16 @@
+{
+  "experiment": "timer",
+  "scenario": "morning_flow_s204",
+  "sim_time": 1200,
+  "avg_waiting_time": 62.15866666666667,
+  "max_waiting_time": 620.0,
+  "avg_queue_length": 20.54362801377727,
+  "max_queue_length": 32,
+  "throughput": 750,
+  "avg_travel_time": 115.436,
+  "avg_stops_per_vehicle": 2.9426666666666668,
+  "avg_pedestrian_waiting_time": 14.100157009506603,
+  "max_pedestrian_waiting_time": 53.0,
+  "avg_waiting_pedestrians": 2.5809414466130884,
+  "j1_j2_congestion_pct_time": 0.0
+}

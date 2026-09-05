@@ -1,0 +1,16 @@
+{
+  "experiment": "a2c",
+  "scenario": "day_cycle_s205",
+  "sim_time": 3600,
+  "avg_waiting_time": 18.744888888888887,
+  "max_waiting_time": 106.0,
+  "avg_queue_length": 3.329189457981104,
+  "max_queue_length": 16,
+  "throughput": 1125,
+  "avg_travel_time": 59.25688888888889,
+  "avg_stops_per_vehicle": 1.232888888888889,
+  "avg_pedestrian_waiting_time": 9.658517012785765,
+  "max_pedestrian_waiting_time": 37.0,
+  "avg_waiting_pedestrians": 2.1631029338637493,
+  "j1_j2_congestion_pct_time": 0.0
+}

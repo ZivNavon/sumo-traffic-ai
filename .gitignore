@@ -14,3 +14,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+J2
+moves
+trips.trips.xml

@@ -1,0 +1,16 @@
+{
+  "experiment": "timer",
+  "scenario": "evening_flow_s205",
+  "sim_time": 1200,
+  "avg_waiting_time": 21.98,
+  "max_waiting_time": 110.0,
+  "avg_queue_length": 6.67787610619469,
+  "max_queue_length": 18,
+  "throughput": 750,
+  "avg_travel_time": 66.85866666666666,
+  "avg_stops_per_vehicle": 1.2706666666666666,
+  "avg_pedestrian_waiting_time": 14.563520244950187,
+  "max_pedestrian_waiting_time": 53.0,
+  "avg_waiting_pedestrians": 2.8920353982300884,
+  "j1_j2_congestion_pct_time": 0.0
+}

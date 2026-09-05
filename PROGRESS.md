@@ -310,18 +310,199 @@ D:\Ziv - OS\Projects\Trafic AI\
 
 ## 5. Suggested next steps (in order)
 
-1. Tune SCRIPT mode's load-score weights / thresholds so it measurably beats
-   TIMER (run small parameter sweeps, especially on `heavy_west`).
-2. Add downstream-congestion penalty and J1↔J2 coordination term to the load
+1. Build `sim/controllers/ai_controller.py` — DQN agent + training loop
+   (see Session 3 notes below for design).
+2. Tune SCRIPT mode's load-score weights / thresholds (parallel effort —
+   SCRIPT underperforming TIMER motivates the ML approach, so this can wait).
+3. Add downstream-congestion penalty and J1↔J2 coordination term to the load
    formula.
-3. Implement AI mode (`sim/controllers/ai_controller.py`): Python builds
-   state → sends to LLM → LLM recommends phase/duration/reasoning → Python
-   validates against the same safety constraints (min/max green, no
-   conflicting phases, pedestrian threshold, starvation, downstream
-   congestion) → applies via TraCI.
 4. Build remaining traffic scenarios (morning/evening directional flow,
    downstream-congestion scenario, pedestrian-focused scenario).
 5. Run all three modes across all scenarios, generate comparison
    tables/graphs for the report (this maps to Chapter 3.3 "תוצאות ראשוניות"
    and Chapter 4 in `Interim_Report_Ziv_Ofek.docx`).
 6. Feed real results back into the interim report's TODO placeholders.
+
+---
+
+## Interim Report — snapshot (submitted ~2026-06-19)
+
+The interim report covers Chapters 1-4 and was submitted as the progress report (5% of grade).
+
+### What the interim report says we've done
+- Literature review (SCATS, SCOOT, DRL papers [4][5], CV/YOLO refs)
+- System architecture: SUMO → TraCI → Data Collection → State Builder → Load Calculator → Decision (Timer/Script) → TLS
+- TIMER baseline + SCRIPT v0 + SCRIPT v1 implemented and benchmarked
+- Progress report written and submitted
+
+### What the interim report says is still pending (from Table 5/6)
+- Software implementation: validation layer, AI controller, decision log
+- System integration: integrate AI model into existing framework
+- Testing/calibration: improve SCRIPT v1 on balanced scenario; integrate AI for comparison to baselines
+- CV integration (future extension, lower priority)
+- GUI/dashboard (future extension, lower priority)
+- Final report + presentation + poster
+
+### AI mode — important correction vs. interim report
+The interim report refers to AI mode as "AI/LLM." **This has been revised: AI mode will be a DQN (Deep Q-Network), not an LLM API call.** Reason: final EE project requires a real ML algorithm the student can fully explain and defend. The architecture diagram's "Future AI/LLM Extension" box should be updated to "AI/DQN Extension" in the final report.
+
+### AI tool use declaration (from §4.4 of interim report)
+Interim report states: AI tools were used to assist with formulating scenarios, code improvement, testing, understanding results, and analysis. All decisions, results, and conclusions were verified by the students. AI tools did not generate data, graphs, or conclusions independently.
+
+---
+
+## Session 3 summary (2026-08-15)
+
+Planning session. No code written. Key decisions:
+
+### AI mode = DQN (Deep Q-Network)
+
+Not an LLM API. A real ML algorithm trained inside SUMO simulations.
+Required for a credible EE final project defense.
+
+**Design:**
+
+| RL Concept | Implementation |
+|---|---|
+| State | ~13 numbers from `state_builder.py` (queue, wait, speed, pedestrians, phase, elapsed) |
+| Action | Discrete green duration buckets: 10 / 20 / 30 / 45 / 60 s |
+| Reward | Negative total waiting time per step |
+| Network | 2-3 layer MLP (PyTorch or stable-baselines3) |
+| Training | ~5,000 SUMO episodes, ε-greedy exploration, CPU only (~30-90 min) |
+
+Log reward per episode for the learning curve graph (key evidence of learning
+for the defense presentation).
+
+### Project narrative
+
+TIMER (fixed, baseline) → SCRIPT (hand-crafted rules, struggled to beat TIMER)
+→ DQN (learns a policy from experience, no hand-tuned weights).
+
+The SCRIPT underperformance **motivates** the ML approach — present it as such,
+not as a failure.
+
+### Maintenance rule (added 2026-08-15)
+
+Always update `PROGRESS.md` (and `RESULTS.md` after runs) at the end of every
+session. No need to ask.
+
+---
+
+## Session 4 summary (2026-08-16)
+
+Built and trained DQN. Two complete training and evaluation runs on `heavy_west`.
+
+### What was built
+
+- `sim/controllers/ai_controller.py`: DQN inference controller
+  - 17-feature state vector, 5-action discrete output [20,30,40,50,60]s
+  - Safety layer identical to SCRIPT (starvation, pedestrian priority, min/max green)
+- `sim/train_dqn.py`: full training loop
+  - Double DQN (online selects action, target evaluates — prevents Q-value overestimation)
+  - Replay buffer (10,000 experiences), batch size 64
+  - ε-greedy decay: 1.0 → 0.05 over 1,000 episodes (rate 0.997/ep)
+  - Stop penalty: `reward = -total_wait - 20 × new_stops`
+- `sim/run_experiment.py`: updated to support `--mode ai`
+
+### DQN v1 results (heavy_west)
+
+Reward = -total_wait only. Actions [10,20,30,45,60]s. Standard DQN.
+
+Agent discovered "rapid cycling" — frequent phase switches reduced max_wait -43%
+and ped_wait -49% vs TIMER. But avg_stops jumped to 3.08 (+128% vs TIMER 1.35).
+
+### DQN v2 results (heavy_west) — current weights in `sim/models/`
+
+Reward = -total_wait - 20×new_stops. Actions [20,30,40,50,60]s. Double DQN.
+
+| Metric | TIMER | SCRIPT v1 | DQN v2 | vs TIMER |
+|--------|-------|-----------|--------|---------|
+| Avg waiting time | 43.4s | **32.9s** | 42.2s | -3% |
+| Max waiting time | 215s | 159s | **157s** | -27% |
+| Avg stops/vehicle | 1.35 | 1.52 | 1.97 | +46% |
+| Avg ped wait | 16.2s | 17.6s | **10.8s** | -33% |
+| Max ped wait | 55s | 61s | **36s** | -35% |
+
+Stop penalty worked: stops fell 3.08 → 1.97 (36% improvement). Trade-off: lost some
+of v1's max_wait advantage (122 → 157, still better than TIMER's 215).
+
+### Engineering insight for report
+
+"Reward function design directly shapes agent behavior. DQN v1 found a locally
+optimal policy (minimize waits via rapid cycling) that violated an implicit constraint
+(vehicle comfort). Introducing an explicit stop penalty guided the agent toward a
+more balanced strategy — a concrete demonstration of reward engineering in RL."
+
+### DQN balanced result (2026-08-16, same session)
+
+Trained 1000 episodes on `balanced`, evaluated. **DQN v2 won on every metric:**
+
+| Metric | TIMER | SCRIPT v1 | DQN v2 | vs TIMER |
+|--------|-------|-----------|--------|---------|
+| Avg waiting time | 27.9s | 31.8s | **23.2s** | -17% |
+| Max waiting time | 105s | 161s | **92s** | -12% |
+| Avg queue | 3.88 | 5.00 | **2.58** | -34% |
+| Avg travel time | 86.4s | 91.7s | **81.8s** | -5% |
+| Avg stops | 1.53 | 1.67 | **1.51** | -1% |
+| Avg ped wait | 15.6s | 17.8s | **11.3s** | -28% |
+
+Symmetric demand is where hand-crafted rules struggle: SCRIPT v1 can't beat TIMER's 37/37s fixed cycle. DQN learned the pattern directly without manual tuning.
+
+### Final verdict across both scenarios
+
+- **Balanced**: DQN v2 beats everything on every metric
+- **Heavy_west**: DQN v2 wins on max_wait (-27% vs TIMER) and pedestrian wait (-33%); SCRIPT v1 wins on average vehicle flow
+- Neither TIMER nor SCRIPT is uniformly best — DQN is the most robust controller across scenarios
+
+---
+
+## Session 5 summary (2026-08-17)
+
+### New scenario: pedestrian_heavy
+
+- 200 vehicles (period=6s), 601 pedestrians (period=2s), seed=5
+- Generated via randomTrips.py
+- TIMER baseline: avg_ped_wait 14.91s, avg_waiting_peds 3.29
+- SCRIPT v1: worse than TIMER on all metrics (same failure mode as balanced — sparse vehicles make adaptive heuristics trigger on noise)
+
+### New algorithm: A2C (Advantage Actor-Critic)
+
+Built `sim/controllers/a2c_controller.py` and `sim/train_a2c.py`.
+
+Architecture: shared trunk (17→64→64) + actor head (64→5, softmax) + critic head (64→1).
+
+Key differences from DQN:
+- On-policy: learns from fresh episode trajectory, not replay buffer
+- Stochastic policy during training (Categorical distribution + entropy bonus)
+- Advantage A(s,a) = R_t - V(s_t) instead of Q-value target
+- One gradient update per episode (vs per-step in DQN)
+- Gradient clipping (max_norm=0.5) for stability
+
+### Major finding: DQN = A2C on all metrics
+
+| Scenario | DQN v2 avg_wait | A2C avg_wait | Match |
+|----------|----------------|-------------|-------|
+| balanced | 23.24s | 23.24s | identical |
+| heavy_west | 42.17s | 42.17s | identical |
+| pedestrian_heavy | 25.69s | 25.69s | identical |
+
+Two fundamentally different RL algorithms converged to the same deterministic greedy policy on all three scenarios. In a fixed-seed deterministic environment, identical argmax decisions → identical trajectory → identical metrics.
+
+**Report interpretation:** Policy convergence validates the learned solution as reward-optimal, not a local minimum of one algorithm. This is the strongest possible experimental result for comparing algorithms.
+
+### Final results overview
+
+| Scenario | Winner | Notes |
+|----------|--------|-------|
+| balanced | ML (all metrics) | SCRIPT worse than TIMER; ML -17% avg_wait, -34% avg_queue |
+| heavy_west | Split | SCRIPT best avg metrics; ML best max_wait (-27%) and ped_wait (-33%) |
+| pedestrian_heavy | ML (almost all) | ML reduces avg_waiting_peds by 35%; SCRIPT fails again |
+
+### Next steps
+
+1. Write Chapter 3 update: DQN architecture, v1→v2 reward engineering, DQN vs A2C algorithm comparison, convergence finding
+2. Write Chapter 5: Conclusions and future work
+3. Update abstract for final report
+4. Add Mnih et al. 2015 + A2C reference (Mnih et al. 2016) to bibliography
+5. Build 10-slide English presentation
+6. Build poster

@@ -1,0 +1,830 @@
+{
+  "balanced": {
+    "timer": {
+      "avg_waiting_time": {
+        "mean": 34.964,
+        "std": 13.391
+      },
+      "max_waiting_time": {
+        "mean": 187.0,
+        "std": 139.199
+      },
+      "avg_queue_length": {
+        "mean": 5.94,
+        "std": 3.865
+      },
+      "avg_travel_time": {
+        "mean": 95.283,
+        "std": 15.26
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.709,
+        "std": 0.204
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 16.234,
+        "std": 4.153
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 90.2,
+        "std": 84.325
+      },
+      "throughput": {
+        "mean": 600,
+        "std": 0.0
+      }
+    },
+    "script": {
+      "avg_waiting_time": {
+        "mean": 34.601,
+        "std": 2.07
+      },
+      "max_waiting_time": {
+        "mean": 151.0,
+        "std": 14.765
+      },
+      "avg_queue_length": {
+        "mean": 5.893,
+        "std": 0.809
+      },
+      "avg_travel_time": {
+        "mean": 95.478,
+        "std": 2.761
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.818,
+        "std": 0.081
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 18.747,
+        "std": 0.922
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 65.8,
+        "std": 1.095
+      },
+      "throughput": {
+        "mean": 600,
+        "std": 0.0
+      }
+    },
+    "ai": {
+      "avg_waiting_time": {
+        "mean": 24.741,
+        "std": 0.793
+      },
+      "max_waiting_time": {
+        "mean": 117.8,
+        "std": 5.805
+      },
+      "avg_queue_length": {
+        "mean": 2.698,
+        "std": 0.164
+      },
+      "avg_travel_time": {
+        "mean": 84.166,
+        "std": 0.976
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.617,
+        "std": 0.037
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 10.171,
+        "std": 0.993
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 36.0,
+        "std": 0.707
+      },
+      "throughput": {
+        "mean": 600,
+        "std": 0.0
+      }
+    },
+    "a2c": {
+      "avg_waiting_time": {
+        "mean": 24.741,
+        "std": 0.793
+      },
+      "max_waiting_time": {
+        "mean": 117.8,
+        "std": 5.805
+      },
+      "avg_queue_length": {
+        "mean": 2.698,
+        "std": 0.164
+      },
+      "avg_travel_time": {
+        "mean": 84.166,
+        "std": 0.976
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.617,
+        "std": 0.037
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 10.171,
+        "std": 0.993
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 36.0,
+        "std": 0.707
+      },
+      "throughput": {
+        "mean": 600,
+        "std": 0.0
+      }
+    }
+  },
+  "heavy_west": {
+    "timer": {
+      "avg_waiting_time": {
+        "mean": 44.966,
+        "std": 0.891
+      },
+      "max_waiting_time": {
+        "mean": 308.6,
+        "std": 79.532
+      },
+      "avg_queue_length": {
+        "mean": 19.088,
+        "std": 0.926
+      },
+      "avg_travel_time": {
+        "mean": 97.921,
+        "std": 2.403
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.382,
+        "std": 0.039
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 14.262,
+        "std": 1.262
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 61.6,
+        "std": 24.276
+      },
+      "throughput": {
+        "mean": 787,
+        "std": 0.0
+      }
+    },
+    "script": {
+      "avg_waiting_time": {
+        "mean": 41.558,
+        "std": 7.382
+      },
+      "max_waiting_time": {
+        "mean": 262.6,
+        "std": 88.217
+      },
+      "avg_queue_length": {
+        "mean": 17.39,
+        "std": 3.642
+      },
+      "avg_travel_time": {
+        "mean": 96.845,
+        "std": 9.436
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.736,
+        "std": 0.194
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 17.239,
+        "std": 0.609
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 70.4,
+        "std": 11.567
+      },
+      "throughput": {
+        "mean": 787,
+        "std": 0.0
+      }
+    },
+    "ai": {
+      "avg_waiting_time": {
+        "mean": 42.833,
+        "std": 0.995
+      },
+      "max_waiting_time": {
+        "mean": 158.0,
+        "std": 29.198
+      },
+      "avg_queue_length": {
+        "mean": 18.336,
+        "std": 0.904
+      },
+      "avg_travel_time": {
+        "mean": 102.224,
+        "std": 1.394
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 2.026,
+        "std": 0.034
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 11.028,
+        "std": 0.888
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 57.8,
+        "std": 22.41
+      },
+      "throughput": {
+        "mean": 787,
+        "std": 0.0
+      }
+    },
+    "a2c": {
+      "avg_waiting_time": {
+        "mean": 45.073,
+        "std": 1.001
+      },
+      "max_waiting_time": {
+        "mean": 246.8,
+        "std": 30.987
+      },
+      "avg_queue_length": {
+        "mean": 18.694,
+        "std": 0.995
+      },
+      "avg_travel_time": {
+        "mean": 100.933,
+        "std": 2.15
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.646,
+        "std": 0.055
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 13.419,
+        "std": 0.886
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 53.4,
+        "std": 18.243
+      },
+      "throughput": {
+        "mean": 787,
+        "std": 0.0
+      }
+    }
+  },
+  "pedestrian_heavy": {
+    "timer": {
+      "avg_waiting_time": {
+        "mean": 28.271,
+        "std": 2.52
+      },
+      "max_waiting_time": {
+        "mean": 114.4,
+        "std": 15.323
+      },
+      "avg_queue_length": {
+        "mean": 1.227,
+        "std": 0.217
+      },
+      "avg_travel_time": {
+        "mean": 85.535,
+        "std": 4.049
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.601,
+        "std": 0.115
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 13.421,
+        "std": 0.445
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 53.6,
+        "std": 3.578
+      },
+      "throughput": {
+        "mean": 200,
+        "std": 0.0
+      }
+    },
+    "script": {
+      "avg_waiting_time": {
+        "mean": 29.635,
+        "std": 2.424
+      },
+      "max_waiting_time": {
+        "mean": 122.4,
+        "std": 4.775
+      },
+      "avg_queue_length": {
+        "mean": 1.222,
+        "std": 0.143
+      },
+      "avg_travel_time": {
+        "mean": 87.446,
+        "std": 4.068
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.731,
+        "std": 0.174
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 15.509,
+        "std": 0.935
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 66.0,
+        "std": 0.707
+      },
+      "throughput": {
+        "mean": 200,
+        "std": 0.0
+      }
+    },
+    "ai": {
+      "avg_waiting_time": {
+        "mean": 24.816,
+        "std": 0.95
+      },
+      "max_waiting_time": {
+        "mean": 98.0,
+        "std": 13.638
+      },
+      "avg_queue_length": {
+        "mean": 0.802,
+        "std": 0.088
+      },
+      "avg_travel_time": {
+        "mean": 82.204,
+        "std": 2.414
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.636,
+        "std": 0.09
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 9.464,
+        "std": 0.91
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 52.2,
+        "std": 23.317
+      },
+      "throughput": {
+        "mean": 200,
+        "std": 0.0
+      }
+    },
+    "a2c": {
+      "avg_waiting_time": {
+        "mean": 24.816,
+        "std": 0.95
+      },
+      "max_waiting_time": {
+        "mean": 98.0,
+        "std": 13.638
+      },
+      "avg_queue_length": {
+        "mean": 0.802,
+        "std": 0.088
+      },
+      "avg_travel_time": {
+        "mean": 82.204,
+        "std": 2.414
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.636,
+        "std": 0.09
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 9.464,
+        "std": 0.91
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 52.2,
+        "std": 23.317
+      },
+      "throughput": {
+        "mean": 200,
+        "std": 0.0
+      }
+    }
+  },
+  "morning_flow": {
+    "timer": {
+      "avg_waiting_time": {
+        "mean": 49.878,
+        "std": 16.136
+      },
+      "max_waiting_time": {
+        "mean": 398.0,
+        "std": 211.912
+      },
+      "avg_queue_length": {
+        "mean": 15.02,
+        "std": 5.832
+      },
+      "avg_travel_time": {
+        "mean": 101.297,
+        "std": 18.833
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 2.387,
+        "std": 0.597
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 14.497,
+        "std": 0.339
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 53.0,
+        "std": 0.707
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    },
+    "script": {
+      "avg_waiting_time": {
+        "mean": 46.636,
+        "std": 11.511
+      },
+      "max_waiting_time": {
+        "mean": 345.2,
+        "std": 130.245
+      },
+      "avg_queue_length": {
+        "mean": 15.763,
+        "std": 4.003
+      },
+      "avg_travel_time": {
+        "mean": 97.438,
+        "std": 14.207
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 2.19,
+        "std": 0.608
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 16.379,
+        "std": 1.261
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 65.6,
+        "std": 1.673
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    },
+    "ai": {
+      "avg_waiting_time": {
+        "mean": 53.531,
+        "std": 22.535
+      },
+      "max_waiting_time": {
+        "mean": 493.6,
+        "std": 236.439
+      },
+      "avg_queue_length": {
+        "mean": 17.078,
+        "std": 7.564
+      },
+      "avg_travel_time": {
+        "mean": 105.746,
+        "std": 26.268
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 2.882,
+        "std": 0.925
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 9.977,
+        "std": 0.316
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 36.0,
+        "std": 1.225
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    },
+    "a2c": {
+      "avg_waiting_time": {
+        "mean": 51.968,
+        "std": 27.19
+      },
+      "max_waiting_time": {
+        "mean": 447.0,
+        "std": 287.344
+      },
+      "avg_queue_length": {
+        "mean": 15.96,
+        "std": 10.007
+      },
+      "avg_travel_time": {
+        "mean": 102.458,
+        "std": 33.008
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 2.388,
+        "std": 0.995
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 12.553,
+        "std": 0.172
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 46.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    }
+  },
+  "evening_flow": {
+    "timer": {
+      "avg_waiting_time": {
+        "mean": 21.966,
+        "std": 3.221
+      },
+      "max_waiting_time": {
+        "mean": 107.2,
+        "std": 32.453
+      },
+      "avg_queue_length": {
+        "mean": 6.465,
+        "std": 1.292
+      },
+      "avg_travel_time": {
+        "mean": 66.058,
+        "std": 5.465
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.336,
+        "std": 0.185
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 14.583,
+        "std": 0.172
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 52.4,
+        "std": 0.548
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    },
+    "script": {
+      "avg_waiting_time": {
+        "mean": 25.684,
+        "std": 2.524
+      },
+      "max_waiting_time": {
+        "mean": 145.8,
+        "std": 27.77
+      },
+      "avg_queue_length": {
+        "mean": 8.185,
+        "std": 1.054
+      },
+      "avg_travel_time": {
+        "mean": 69.282,
+        "std": 3.97
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.215,
+        "std": 0.108
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 17.314,
+        "std": 0.927
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 65.8,
+        "std": 0.837
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    },
+    "ai": {
+      "avg_waiting_time": {
+        "mean": 19.543,
+        "std": 3.713
+      },
+      "max_waiting_time": {
+        "mean": 107.8,
+        "std": 41.088
+      },
+      "avg_queue_length": {
+        "mean": 5.339,
+        "std": 1.429
+      },
+      "avg_travel_time": {
+        "mean": 62.477,
+        "std": 6.035
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.308,
+        "std": 0.23
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 9.825,
+        "std": 0.316
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 36.6,
+        "std": 0.548
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    },
+    "a2c": {
+      "avg_waiting_time": {
+        "mean": 22.756,
+        "std": 4.607
+      },
+      "max_waiting_time": {
+        "mean": 120.8,
+        "std": 28.787
+      },
+      "avg_queue_length": {
+        "mean": 6.878,
+        "std": 1.887
+      },
+      "avg_travel_time": {
+        "mean": 67.263,
+        "std": 7.458
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.402,
+        "std": 0.258
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 12.41,
+        "std": 0.302
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 46.2,
+        "std": 0.447
+      },
+      "throughput": {
+        "mean": 750,
+        "std": 0.0
+      }
+    }
+  },
+  "day_cycle": {
+    "timer": {
+      "avg_waiting_time": {
+        "mean": 25.252,
+        "std": 1.915
+      },
+      "max_waiting_time": {
+        "mean": 193.4,
+        "std": 27.465
+      },
+      "avg_queue_length": {
+        "mean": 4.139,
+        "std": 0.744
+      },
+      "avg_travel_time": {
+        "mean": 67.751,
+        "std": 2.821
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.393,
+        "std": 0.103
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 14.228,
+        "std": 0.452
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 53.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "mean": 1125,
+        "std": 0.0
+      }
+    },
+    "script": {
+      "avg_waiting_time": {
+        "mean": 26.556,
+        "std": 2.186
+      },
+      "max_waiting_time": {
+        "mean": 179.2,
+        "std": 58.589
+      },
+      "avg_queue_length": {
+        "mean": 4.986,
+        "std": 0.55
+      },
+      "avg_travel_time": {
+        "mean": 68.38,
+        "std": 3.304
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.286,
+        "std": 0.119
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 15.992,
+        "std": 0.282
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 66.4,
+        "std": 0.548
+      },
+      "throughput": {
+        "mean": 1125,
+        "std": 0.0
+      }
+    },
+    "ai": {
+      "avg_waiting_time": {
+        "mean": 23.441,
+        "std": 3.05
+      },
+      "max_waiting_time": {
+        "mean": 218.2,
+        "std": 82.627
+      },
+      "avg_queue_length": {
+        "mean": 3.943,
+        "std": 1.014
+      },
+      "avg_travel_time": {
+        "mean": 65.926,
+        "std": 4.227
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.492,
+        "std": 0.153
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 10.584,
+        "std": 0.436
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 44.4,
+        "std": 0.894
+      },
+      "throughput": {
+        "mean": 1125,
+        "std": 0.0
+      }
+    },
+    "a2c": {
+      "avg_waiting_time": {
+        "mean": 22.433,
+        "std": 3.109
+      },
+      "max_waiting_time": {
+        "mean": 174.0,
+        "std": 51.386
+      },
+      "avg_queue_length": {
+        "mean": 3.755,
+        "std": 0.662
+      },
+      "avg_travel_time": {
+        "mean": 65.13,
+        "std": 4.813
+      },
+      "avg_stops_per_vehicle": {
+        "mean": 1.469,
+        "std": 0.182
+      },
+      "avg_pedestrian_waiting_time": {
+        "mean": 10.002,
+        "std": 0.255
+      },
+      "max_pedestrian_waiting_time": {
+        "mean": 37.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "mean": 1125,
+        "std": 0.0
+      }
+    }
+  }
+}

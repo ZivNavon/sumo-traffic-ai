@@ -1,0 +1,16 @@
+{
+  "experiment": "a2c",
+  "scenario": "heavy_west_s202",
+  "sim_time": 1200,
+  "avg_waiting_time": 44.318932655654386,
+  "max_waiting_time": 285.0,
+  "avg_queue_length": 17.265212399540758,
+  "max_queue_length": 34,
+  "throughput": 787,
+  "avg_travel_time": 99.27954256670903,
+  "avg_stops_per_vehicle": 1.5857687420584499,
+  "avg_pedestrian_waiting_time": 12.24022621809745,
+  "max_pedestrian_waiting_time": 46.0,
+  "avg_waiting_pedestrians": 1.1061997703788748,
+  "j1_j2_congestion_pct_time": 0.0
+}

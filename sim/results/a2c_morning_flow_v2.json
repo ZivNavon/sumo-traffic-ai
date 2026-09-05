@@ -1,0 +1,16 @@
+{
+  "experiment": "a2c",
+  "scenario": "morning_flow_v2",
+  "sim_time": 1200,
+  "avg_waiting_time": 118.248,
+  "max_waiting_time": 1150.0,
+  "avg_queue_length": 32.63103448275862,
+  "max_queue_length": 33,
+  "throughput": 750,
+  "avg_travel_time": 173.71733333333333,
+  "avg_stops_per_vehicle": 3.6506666666666665,
+  "avg_pedestrian_waiting_time": 18.5270375917423,
+  "max_pedestrian_waiting_time": 76.0,
+  "avg_waiting_pedestrians": 3.332512315270936,
+  "j1_j2_congestion_pct_time": 0.0
+}

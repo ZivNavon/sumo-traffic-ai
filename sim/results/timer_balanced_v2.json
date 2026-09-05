@@ -1,0 +1,16 @@
+{
+  "experiment": "timer",
+  "scenario": "balanced_v2",
+  "sim_time": 1200,
+  "avg_waiting_time": 27.795,
+  "max_waiting_time": 113.0,
+  "avg_queue_length": 3.7781569965870307,
+  "max_queue_length": 7,
+  "throughput": 600,
+  "avg_travel_time": 87.50333333333333,
+  "avg_stops_per_vehicle": 1.54,
+  "avg_pedestrian_waiting_time": 15.067996651785714,
+  "max_pedestrian_waiting_time": 51.0,
+  "avg_waiting_pedestrians": 1.136518771331058,
+  "j1_j2_congestion_pct_time": 0.0
+}

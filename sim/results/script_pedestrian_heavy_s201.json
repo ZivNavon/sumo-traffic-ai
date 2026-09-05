@@ -1,0 +1,16 @@
+{
+  "experiment": "script",
+  "scenario": "pedestrian_heavy_s201",
+  "sim_time": 1200,
+  "avg_waiting_time": 26.78,
+  "max_waiting_time": 130.0,
+  "avg_queue_length": 1.0726129216695255,
+  "max_queue_length": 3,
+  "throughput": 200,
+  "avg_travel_time": 81.5,
+  "avg_stops_per_vehicle": 1.52,
+  "avg_pedestrian_waiting_time": 15.475144454311122,
+  "max_pedestrian_waiting_time": 66.0,
+  "avg_waiting_pedestrians": 4.1703830760434535,
+  "j1_j2_congestion_pct_time": 0.0
+}

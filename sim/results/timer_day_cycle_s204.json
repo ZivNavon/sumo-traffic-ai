@@ -1,0 +1,16 @@
+{
+  "experiment": "timer",
+  "scenario": "day_cycle_s204",
+  "sim_time": 3600,
+  "avg_waiting_time": 27.04888888888889,
+  "max_waiting_time": 234.0,
+  "avg_queue_length": 5.336476426799007,
+  "max_queue_length": 21,
+  "throughput": 1125,
+  "avg_travel_time": 70.81422222222223,
+  "avg_stops_per_vehicle": 1.4417777777777778,
+  "avg_pedestrian_waiting_time": 14.734360076248832,
+  "max_pedestrian_waiting_time": 53.0,
+  "avg_waiting_pedestrians": 3.577915632754342,
+  "j1_j2_congestion_pct_time": 0.0
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clear Human Editor"
+  short_description: "Write naturally, preserve evidence, and remove repetition"
+  default_prompt: "Edit this document into natural, concise prose while preserving verified facts and uncertainty. Track the document's flow, remove repeated ideas and audit-log phrasing, avoid restating tables in prose, and preserve correct Word direction and layout."
