@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/hit-logo.png" alt="HIT — Holon Institute of Technology" width="420"></p>
+
 # Traffic signal control with reinforcement learning
 
 This final project was created by **Ofek and Ziv** for **HIT — Holon Institute of Technology**. It studies traffic signal control at two connected intersections in the SUMO simulator, with the aim of reducing vehicle and pedestrian waiting and unnecessary stops.
@@ -69,3 +71,4 @@ Before publication, copied source hashes were checked, the source archive passed
 ## Patch notes
 
 - 2026-10-04: Added HIT final-project attribution to Ofek and Ziv and a concise overview of the system, objectives, and controllers.
+- 2026-10-04: Added the HIT logo from the project book cover to the README.
