@@ -1,0 +1,133 @@
+{
+  "seed_collisions": [],
+  "route_files_inspected": 560,
+  "imports": [
+    {
+      "id": "A-day_cycle-dqn-current-r1",
+      "learning_seed": 73021,
+      "checkpoints": [
+        {
+          "episode": 500,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\overnight-sumo\\campaign-20260908\\training\\dqn-current\\checkpoint-500.pt",
+          "sha256": "43828d4eecc9ee31510d676edb69cd018e342c559f8901e95ef7bcc148e7674a"
+        },
+        {
+          "episode": 750,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\overnight-sumo\\campaign-20260908\\training\\dqn-current\\checkpoint-750.pt",
+          "sha256": "ad6efccf039cbcf4bcb7445de906b12950e0153fd25172f113bd81fac3aaa831"
+        },
+        {
+          "episode": 1000,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\overnight-sumo\\campaign-20260908\\training\\dqn-current\\checkpoint-1000.pt",
+          "sha256": "d7562fb5e245d007ef86871c93a039bbae0e1d1dc87abaec752ae033818760f4"
+        }
+      ]
+    },
+    {
+      "id": "A-day_cycle-a2c-current-r1",
+      "learning_seed": 73021,
+      "checkpoints": [
+        {
+          "episode": 500,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\overnight-sumo\\campaign-20260908\\training\\a2c-current\\checkpoint-500.pt",
+          "sha256": "8ddd874d10cc7af950ffc112e766403f613143e37da0b8bff11d65bb3095879d"
+        },
+        {
+          "episode": 750,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\overnight-sumo\\campaign-20260908\\training\\a2c-current\\checkpoint-750.pt",
+          "sha256": "e617b76f06f0e8e4ce1dc184d893f8581217281045a95157a99d9958dd249d51"
+        },
+        {
+          "episode": 1000,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\overnight-sumo\\campaign-20260908\\training\\a2c-current\\checkpoint-1000.pt",
+          "sha256": "6f116a6ff684ed606ac05b3dc261215fc83d2a48585e19a8f5f92dec09e74781"
+        }
+      ]
+    },
+    {
+      "id": "A-day_cycle-dqn-current-r2",
+      "learning_seed": 83021,
+      "checkpoints": [
+        {
+          "episode": 500,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\dqn-r1\\checkpoint-500.pt",
+          "sha256": "cebde9dc10ea140c9ca493f0e352ce6f6ec5556d55631cb12f26b58d81de34a0"
+        },
+        {
+          "episode": 750,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\dqn-r1\\checkpoint-750.pt",
+          "sha256": "df00945a695136356adeb2e83d685bbd80a9ba8b78c206b0b84dbbef7070da65"
+        },
+        {
+          "episode": 1000,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\dqn-r1\\checkpoint-1000.pt",
+          "sha256": "f92723cbf75ec2768d9fa86c6bd0c40b6cb253b42b23c15a1e71b249fa583c73"
+        }
+      ]
+    },
+    {
+      "id": "A-day_cycle-a2c-current-r2",
+      "learning_seed": 103021,
+      "checkpoints": [
+        {
+          "episode": 500,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\a2c-r1\\checkpoint-500.pt",
+          "sha256": "eec1625a268c1b0332823185b94990723934be1ec861e27371764243c605429f"
+        },
+        {
+          "episode": 750,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\a2c-r1\\checkpoint-750.pt",
+          "sha256": "48893aa29624e8f5daba8927a507e3ce3c919295ac7c0e2140b89d11ca665ee2"
+        },
+        {
+          "episode": 1000,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\a2c-r1\\checkpoint-1000.pt",
+          "sha256": "5dd4a7a13f539e2394fd2618b8b175c3afd1a9a8fc9668df05d0c4dafb9bbbee"
+        }
+      ]
+    },
+    {
+      "id": "A-day_cycle-dqn-current-r3",
+      "learning_seed": 93021,
+      "checkpoints": [
+        {
+          "episode": 500,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\dqn-r2\\checkpoint-500.pt",
+          "sha256": "cb4db4da264d9d15ca8826f7b5931f8ba77b0f58d4b9073c2653368de518dd4c"
+        },
+        {
+          "episode": 750,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\dqn-r2\\checkpoint-750.pt",
+          "sha256": "2cdb9be5e906840527861adf339c25bf2dec7bfc2720e72085258e91fca86507"
+        },
+        {
+          "episode": 1000,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\dqn-r2\\checkpoint-1000.pt",
+          "sha256": "9ffe3977429eebf80e5d4c39fb640d7f01944c045eef2fb2bc5d50d2ddc32565"
+        }
+      ]
+    },
+    {
+      "id": "A-day_cycle-a2c-current-r3",
+      "learning_seed": 113021,
+      "checkpoints": [
+        {
+          "episode": 500,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\a2c-r2\\checkpoint-500.pt",
+          "sha256": "2c491bed9e8c4fa81158b809eac73ed5608cb141e9cc7ee63632664c54ddce99"
+        },
+        {
+          "episode": 750,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\a2c-r2\\checkpoint-750.pt",
+          "sha256": "6d4b82b2956258dc07c923adecabd9ae37c576300c7dd5cccb806fbd9a4daf5d"
+        },
+        {
+          "episode": 1000,
+          "source": "C:\\Users\\ofek2\\Documents\\Codex\\Traffic-AI-Final-Report\\working\\repeatability-sumo\\campaign-20260910\\training\\a2c-r2\\checkpoint-1000.pt",
+          "sha256": "2b71b07df58b02c3a9f1e8ce93c403bc54f33b8a8d156603c6b5151003d9d97e"
+        }
+      ]
+    }
+  ],
+  "scope": "Historical source and both campaigns: XML demand names and protocol split lists; matched source and all 1000 demand schedule entries for each import"
+}

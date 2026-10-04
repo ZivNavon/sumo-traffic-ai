@@ -1,0 +1,8 @@
+{
+  "balanced": 20,
+  "heavy_west": 20,
+  "pedestrian_heavy": 20,
+  "morning_flow": 20,
+  "evening_flow": 20,
+  "day_cycle": 30
+}
