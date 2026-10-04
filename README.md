@@ -1,6 +1,8 @@
 # Traffic signal control with reinforcement learning
 
-Final-project source code for SUMO traffic signal control at two connected intersections. The project compares DQN, A2C, a rule-based SCRIPT controller, SUMO's default fixed-time TIMER, and fixed-duration alternatives evaluated through the campaign wrappers.
+This final project was created by **Ofek and Ziv** for **HIT — Holon Institute of Technology**. It studies traffic signal control at two connected intersections in the SUMO simulator, with the aim of reducing vehicle and pedestrian waiting and unnecessary stops.
+
+The project compares reinforcement learning controllers (DQN and A2C) with a fixed-time TIMER and a rule-based SCRIPT controller. Python code communicates with SUMO through TraCI to read traffic conditions, select green durations, and record performance across six traffic scenarios. The repository contains the simulation, controller implementations, training scripts, and experiment code.
 
 The existing repository history and historical assets are preserved. The previous README is available at `docs/README-before-code-publication.md`; use the instructions below for the published source snapshot.
 
@@ -62,3 +64,8 @@ Results, checkpoints and raw evidence were archived separately in the [project r
 ## Verification
 
 Before publication, copied source hashes were checked, the source archive passed CRC and content-hash checks, and every published Python file was parsed for syntax. No new training or simulation was launched as part of publication. The inventory files allow readers to check the exact source files; they do not certify model quality or resolve documented experimental limitations.
+
+
+## Patch notes
+
+- 2026-10-04: Added HIT final-project attribution to Ofek and Ziv and a concise overview of the system, objectives, and controllers.
