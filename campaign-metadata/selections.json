@@ -1,0 +1,4238 @@
+{
+  "A-balanced-dqn-current-r1": {
+    "episode": 500,
+    "validation_score": 25.073,
+    "weights": "training/A-balanced-dqn-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "d57454ca30b7e387ecf1e41165822d0f32ff6ce99a89d676632ac41d985e9ad0",
+    "all_scores": [
+      [
+        25.073,
+        500
+      ],
+      [
+        25.073,
+        750
+      ],
+      [
+        25.073,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-balanced-dqn-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "d57454ca30b7e387ecf1e41165822d0f32ff6ce99a89d676632ac41d985e9ad0",
+      "all_scores": [
+        [
+          0.7849700212458455,
+          500
+        ],
+        [
+          0.7849700212458455,
+          750
+        ],
+        [
+          0.7849700212458455,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-balanced-a2c-current-r1": {
+    "episode": 500,
+    "validation_score": 31.2745,
+    "weights": "training/A-balanced-a2c-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "a60fcf76400eb52e8a04b9ed45ec4c234cc0077b53710f559e5b9665ee0de031",
+    "all_scores": [
+      [
+        31.2745,
+        500
+      ],
+      [
+        31.2745,
+        750
+      ],
+      [
+        31.2745,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-balanced-a2c-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "a60fcf76400eb52e8a04b9ed45ec4c234cc0077b53710f559e5b9665ee0de031",
+      "all_scores": [
+        [
+          1.0806883587740743,
+          500
+        ],
+        [
+          1.0806883587740743,
+          750
+        ],
+        [
+          1.0806883587740743,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 40,
+          "3": 40
+        },
+        "C1": {
+          "0": 40,
+          "3": 40
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-balanced-dqn-current-r2": {
+    "episode": 500,
+    "validation_score": 25.073,
+    "weights": "training/A-balanced-dqn-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "151c323afaf4bc9d09d4866ab64c8fe5b5e5973fcc40431d9a54dbfe630f8c0e",
+    "all_scores": [
+      [
+        25.073,
+        500
+      ],
+      [
+        25.273833333333332,
+        750
+      ],
+      [
+        25.073,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-balanced-dqn-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "151c323afaf4bc9d09d4866ab64c8fe5b5e5973fcc40431d9a54dbfe630f8c0e",
+      "all_scores": [
+        [
+          0.7849700212458455,
+          500
+        ],
+        [
+          0.7849700212458455,
+          1000
+        ],
+        [
+          0.8110231321043807,
+          750
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-balanced-a2c-current-r2": {
+    "episode": 500,
+    "validation_score": 25.073,
+    "weights": "training/A-balanced-a2c-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "12f36dc46b78d886cabf0a144606d4af12d590d792a462a76fdb1931ac42eb1b",
+    "all_scores": [
+      [
+        25.073,
+        500
+      ],
+      [
+        25.073,
+        750
+      ],
+      [
+        25.073,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-balanced-a2c-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "12f36dc46b78d886cabf0a144606d4af12d590d792a462a76fdb1931ac42eb1b",
+      "all_scores": [
+        [
+          0.7849700212458455,
+          500
+        ],
+        [
+          0.7849700212458455,
+          750
+        ],
+        [
+          0.7849700212458455,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-balanced-dqn-current-r3": {
+    "episode": 500,
+    "validation_score": 25.073,
+    "weights": "training/A-balanced-dqn-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "c85473c68339c9f8a734d8d9110f9fd3098bff360ee09b7f518c6b362769f543",
+    "all_scores": [
+      [
+        25.073,
+        500
+      ],
+      [
+        25.073,
+        750
+      ],
+      [
+        25.073,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-balanced-dqn-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "c85473c68339c9f8a734d8d9110f9fd3098bff360ee09b7f518c6b362769f543",
+      "all_scores": [
+        [
+          0.7849700212458455,
+          500
+        ],
+        [
+          0.7849700212458455,
+          750
+        ],
+        [
+          0.7849700212458455,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-balanced-a2c-current-r3": {
+    "episode": 500,
+    "validation_score": 25.073,
+    "weights": "training/A-balanced-a2c-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "aa0a8e85265d24a542c103837f8b916ab5acc841def04114ca90117a55f9c53c",
+    "all_scores": [
+      [
+        25.073,
+        500
+      ],
+      [
+        25.073,
+        750
+      ],
+      [
+        25.073,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-balanced-a2c-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "aa0a8e85265d24a542c103837f8b916ab5acc841def04114ca90117a55f9c53c",
+      "all_scores": [
+        [
+          0.7849700212458455,
+          500
+        ],
+        [
+          0.7849700212458455,
+          750
+        ],
+        [
+          0.7849700212458455,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-heavy_west-dqn-current-r1": {
+    "episode": 1000,
+    "validation_score": 33.606208857768195,
+    "weights": "training/A-heavy_west-dqn-current-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "6f51948bf8772356f71cf645dc6d600d750ec3505e4a2b78b4aa1a3b6c21fd28",
+    "all_scores": [
+      [
+        42.487224205057956,
+        500
+      ],
+      [
+        42.487224205057956,
+        750
+      ],
+      [
+        33.606208857768195,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 1000,
+      "weights": "training/A-heavy_west-dqn-current-r1/checkpoint-1000.pt",
+      "expected_weight_sha256": "6f51948bf8772356f71cf645dc6d600d750ec3505e4a2b78b4aa1a3b6c21fd28",
+      "all_scores": [
+        [
+          0.7567887870448355,
+          1000
+        ],
+        [
+          0.827601197271771,
+          500
+        ],
+        [
+          0.827601197271771,
+          750
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 30
+        },
+        "C1": {
+          "0": 20,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-heavy_west-a2c-current-r1": {
+    "episode": 500,
+    "validation_score": 43.830721610767434,
+    "weights": "training/A-heavy_west-a2c-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "7b01cf0029eac5ea16b736a02efbf7a81f0e4bcf6e1acd01fd25ef7b26e82621",
+    "all_scores": [
+      [
+        43.830721610767434,
+        500
+      ],
+      [
+        43.830721610767434,
+        750
+      ],
+      [
+        43.830721610767434,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-heavy_west-a2c-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "7b01cf0029eac5ea16b736a02efbf7a81f0e4bcf6e1acd01fd25ef7b26e82621",
+      "all_scores": [
+        [
+          0.9483437725966994,
+          500
+        ],
+        [
+          0.9483437725966994,
+          750
+        ],
+        [
+          0.9483437725966994,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-heavy_west-dqn-current-r2": {
+    "episode": 500,
+    "validation_score": 42.487224205057956,
+    "weights": "training/A-heavy_west-dqn-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "627cbbdbfe3761b43cc0507123370ddd1eb8a6a88e5769aa0a29d6fa39389b81",
+    "all_scores": [
+      [
+        42.487224205057956,
+        500
+      ],
+      [
+        42.487224205057956,
+        750
+      ],
+      [
+        42.487224205057956,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-heavy_west-dqn-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "627cbbdbfe3761b43cc0507123370ddd1eb8a6a88e5769aa0a29d6fa39389b81",
+      "all_scores": [
+        [
+          0.827601197271771,
+          500
+        ],
+        [
+          0.827601197271771,
+          750
+        ],
+        [
+          0.827601197271771,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-heavy_west-a2c-current-r2": {
+    "episode": 500,
+    "validation_score": 43.830721610767434,
+    "weights": "training/A-heavy_west-a2c-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "6e77b86a3903728536b5248e72102a5e8267b28d67b0e90d8068cd7db33e1c77",
+    "all_scores": [
+      [
+        43.830721610767434,
+        500
+      ],
+      [
+        43.830721610767434,
+        750
+      ],
+      [
+        43.830721610767434,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-heavy_west-a2c-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "6e77b86a3903728536b5248e72102a5e8267b28d67b0e90d8068cd7db33e1c77",
+      "all_scores": [
+        [
+          0.9483437725966994,
+          500
+        ],
+        [
+          0.9483437725966994,
+          750
+        ],
+        [
+          0.9483437725966994,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-heavy_west-dqn-current-r3": {
+    "episode": 500,
+    "validation_score": 42.487224205057956,
+    "weights": "training/A-heavy_west-dqn-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "c9ac42f41e59460df417a796e02b2c39694865a9d907e3af339a7e9e755e8078",
+    "all_scores": [
+      [
+        42.487224205057956,
+        500
+      ],
+      [
+        42.487224205057956,
+        750
+      ],
+      [
+        42.487224205057956,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-heavy_west-dqn-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "c9ac42f41e59460df417a796e02b2c39694865a9d907e3af339a7e9e755e8078",
+      "all_scores": [
+        [
+          0.827601197271771,
+          500
+        ],
+        [
+          0.827601197271771,
+          750
+        ],
+        [
+          0.827601197271771,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-heavy_west-a2c-current-r3": {
+    "episode": 500,
+    "validation_score": 42.487224205057956,
+    "weights": "training/A-heavy_west-a2c-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "a7502c9f83218cf728d56cffb687662a5a3b5d95773c466bf57425b5204447d6",
+    "all_scores": [
+      [
+        42.487224205057956,
+        500
+      ],
+      [
+        42.487224205057956,
+        750
+      ],
+      [
+        42.487224205057956,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-heavy_west-a2c-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "a7502c9f83218cf728d56cffb687662a5a3b5d95773c466bf57425b5204447d6",
+      "all_scores": [
+        [
+          0.827601197271771,
+          500
+        ],
+        [
+          0.827601197271771,
+          750
+        ],
+        [
+          0.827601197271771,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-pedestrian_heavy-dqn-current-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/A-pedestrian_heavy-dqn-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "587de9dd40082128da505a668570584d5e031aa208705e1d36d9cf597d1a6bec",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-pedestrian_heavy-dqn-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "587de9dd40082128da505a668570584d5e031aa208705e1d36d9cf597d1a6bec",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-pedestrian_heavy-a2c-current-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/A-pedestrian_heavy-a2c-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "4daa2c893d77f74f0ce5ce3a5505c738e8a6d787488859d53a7a419c131dfa6c",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-pedestrian_heavy-a2c-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "4daa2c893d77f74f0ce5ce3a5505c738e8a6d787488859d53a7a419c131dfa6c",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-pedestrian_heavy-dqn-current-r2": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/A-pedestrian_heavy-dqn-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "484dae761dd90c097e973571fbda4e9da6eade1c303bcc1bb43450354de09d2c",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-pedestrian_heavy-dqn-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "484dae761dd90c097e973571fbda4e9da6eade1c303bcc1bb43450354de09d2c",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-pedestrian_heavy-a2c-current-r2": {
+    "episode": 500,
+    "validation_score": 26.362000000000002,
+    "weights": "training/A-pedestrian_heavy-a2c-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "0795049619a0ba6d851bac0ad33c8347efc6e384798c22dbd13031ef6818b880",
+    "all_scores": [
+      [
+        26.362000000000002,
+        500
+      ],
+      [
+        26.362000000000002,
+        750
+      ],
+      [
+        26.362000000000002,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-pedestrian_heavy-a2c-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "0795049619a0ba6d851bac0ad33c8347efc6e384798c22dbd13031ef6818b880",
+      "all_scores": [
+        [
+          0.9432345206223978,
+          500
+        ],
+        [
+          0.9432345206223978,
+          750
+        ],
+        [
+          0.9432345206223978,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-pedestrian_heavy-dqn-current-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/A-pedestrian_heavy-dqn-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "63cced1ed861adfa1d70f655832e546c7984530825cb16352264dbc718545561",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-pedestrian_heavy-dqn-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "63cced1ed861adfa1d70f655832e546c7984530825cb16352264dbc718545561",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-pedestrian_heavy-a2c-current-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/A-pedestrian_heavy-a2c-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "87449baa141534e37ff3cf371bc59046a1c34258441f5f93cf44000cfc84940b",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-pedestrian_heavy-a2c-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "87449baa141534e37ff3cf371bc59046a1c34258441f5f93cf44000cfc84940b",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-morning_flow-dqn-current-r1": {
+    "episode": 750,
+    "validation_score": 26.836,
+    "weights": "training/A-morning_flow-dqn-current-r1/checkpoint-750.pt",
+    "expected_weight_sha256": "0e66a4546700f3654877449a7daf740800e90af4858c7245659d51630ac20c42",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        26.836,
+        750
+      ],
+      [
+        27.2984,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/A-morning_flow-dqn-current-r1/checkpoint-750.pt",
+      "expected_weight_sha256": "0e66a4546700f3654877449a7daf740800e90af4858c7245659d51630ac20c42",
+      "all_scores": [
+        [
+          0.6459897257137687,
+          750
+        ],
+        [
+          0.752979220977678,
+          500
+        ],
+        [
+          1.0042856666605748,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 30
+        },
+        "C1": {
+          "0": 20,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-morning_flow-a2c-current-r1": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/A-morning_flow-a2c-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "682d1776d4bbd441c6b776f61f7008be4a8bee5ecc0951e93749cbd9d7336245",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-morning_flow-a2c-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "682d1776d4bbd441c6b776f61f7008be4a8bee5ecc0951e93749cbd9d7336245",
+      "all_scores": [
+        [
+          0.752979220977678,
+          500
+        ],
+        [
+          0.752979220977678,
+          750
+        ],
+        [
+          0.752979220977678,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-morning_flow-dqn-current-r2": {
+    "episode": 1000,
+    "validation_score": 38.473866666666666,
+    "weights": "training/A-morning_flow-dqn-current-r2/checkpoint-1000.pt",
+    "expected_weight_sha256": "1c908bb500ef59deb8cab06d4589e7b0a0791ed45acbffbb232ebff5d66db45c",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.473866666666666,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-morning_flow-dqn-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "7f56b02775fadd94a6e99155e6a374c167d826ce89d6eb500d191580737718db",
+      "all_scores": [
+        [
+          0.752979220977678,
+          500
+        ],
+        [
+          0.752979220977678,
+          750
+        ],
+        [
+          0.7680502034559145,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 40
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-morning_flow-a2c-current-r2": {
+    "episode": 500,
+    "validation_score": 39.00866666666667,
+    "weights": "training/A-morning_flow-a2c-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "95beec1e56dc091aa094e750413cce9a562592c44f9bf8c04e8096f28b2c0341",
+    "all_scores": [
+      [
+        39.00866666666667,
+        500
+      ],
+      [
+        39.00866666666667,
+        750
+      ],
+      [
+        39.00866666666667,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-morning_flow-a2c-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "95beec1e56dc091aa094e750413cce9a562592c44f9bf8c04e8096f28b2c0341",
+      "all_scores": [
+        [
+          0.8330878572998028,
+          500
+        ],
+        [
+          0.8330878572998028,
+          750
+        ],
+        [
+          0.8330878572998028,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-morning_flow-dqn-current-r3": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/A-morning_flow-dqn-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "ccfbb1f74dfaec9a1330beb2ece9a7db06aeb300473bcc500456ec24fe2d2989",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-morning_flow-dqn-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "ccfbb1f74dfaec9a1330beb2ece9a7db06aeb300473bcc500456ec24fe2d2989",
+      "all_scores": [
+        [
+          0.752979220977678,
+          500
+        ],
+        [
+          0.752979220977678,
+          750
+        ],
+        [
+          0.752979220977678,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-morning_flow-a2c-current-r3": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/A-morning_flow-a2c-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "c4b6d9f6c223718ad402e5ac8d5504ba0a7eb88ab2ce56f28a13851c9f0af634",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-morning_flow-a2c-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "c4b6d9f6c223718ad402e5ac8d5504ba0a7eb88ab2ce56f28a13851c9f0af634",
+      "all_scores": [
+        [
+          0.752979220977678,
+          500
+        ],
+        [
+          0.752979220977678,
+          750
+        ],
+        [
+          0.752979220977678,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-evening_flow-dqn-current-r1": {
+    "episode": 1000,
+    "validation_score": 19.186666666666667,
+    "weights": "training/A-evening_flow-dqn-current-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "a3626cb21a80d53e89d9d856d978d61f053ac39be57bd51765355c721e972267",
+    "all_scores": [
+      [
+        20.869733333333333,
+        500
+      ],
+      [
+        19.7448,
+        750
+      ],
+      [
+        19.186666666666667,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/A-evening_flow-dqn-current-r1/checkpoint-750.pt",
+      "expected_weight_sha256": "42c28251942779225473fd4809e9c52c0c624435783dafa9a7e418f559b9a70c",
+      "all_scores": [
+        [
+          0.8137189938312724,
+          750
+        ],
+        [
+          0.8167333505057699,
+          1000
+        ],
+        [
+          0.8332693295130001,
+          500
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-evening_flow-a2c-current-r1": {
+    "episode": 500,
+    "validation_score": 21.821466666666666,
+    "weights": "training/A-evening_flow-a2c-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "431c398bf77c6db33cb5c2f6644897090dc2393ed6aa0e32a494cdaf019b6522",
+    "all_scores": [
+      [
+        21.821466666666666,
+        500
+      ],
+      [
+        21.821466666666666,
+        750
+      ],
+      [
+        21.821466666666666,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-evening_flow-a2c-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "431c398bf77c6db33cb5c2f6644897090dc2393ed6aa0e32a494cdaf019b6522",
+      "all_scores": [
+        [
+          0.9327908369157355,
+          500
+        ],
+        [
+          0.9327908369157355,
+          750
+        ],
+        [
+          0.9327908369157355,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-evening_flow-dqn-current-r2": {
+    "episode": 500,
+    "validation_score": 20.588933333333333,
+    "weights": "training/A-evening_flow-dqn-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "7a1aaf1a52e35091b103d872d0d96709aea9fbf088c54240d3e04ae549a2c8e1",
+    "all_scores": [
+      [
+        20.588933333333333,
+        500
+      ],
+      [
+        20.588933333333333,
+        750
+      ],
+      [
+        20.869733333333333,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-evening_flow-dqn-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "7a1aaf1a52e35091b103d872d0d96709aea9fbf088c54240d3e04ae549a2c8e1",
+      "all_scores": [
+        [
+          0.8215722797872026,
+          500
+        ],
+        [
+          0.8215722797872026,
+          750
+        ],
+        [
+          0.8332693295130001,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-evening_flow-a2c-current-r2": {
+    "episode": 500,
+    "validation_score": 21.821466666666666,
+    "weights": "training/A-evening_flow-a2c-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "6d7cef3a56636067d27ff13ee69a33b90ae0a9d4a97642d6bbf72ac33a802012",
+    "all_scores": [
+      [
+        21.821466666666666,
+        500
+      ],
+      [
+        21.821466666666666,
+        750
+      ],
+      [
+        21.821466666666666,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-evening_flow-a2c-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "6d7cef3a56636067d27ff13ee69a33b90ae0a9d4a97642d6bbf72ac33a802012",
+      "all_scores": [
+        [
+          0.9327908369157355,
+          500
+        ],
+        [
+          0.9327908369157355,
+          750
+        ],
+        [
+          0.9327908369157355,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-evening_flow-dqn-current-r3": {
+    "episode": 500,
+    "validation_score": 20.588933333333333,
+    "weights": "training/A-evening_flow-dqn-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "d4242a70d18da4228743163e8471c20c17c31191608c98a56864c981552a0e7a",
+    "all_scores": [
+      [
+        20.588933333333333,
+        500
+      ],
+      [
+        20.588933333333333,
+        750
+      ],
+      [
+        20.588933333333333,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-evening_flow-dqn-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "d4242a70d18da4228743163e8471c20c17c31191608c98a56864c981552a0e7a",
+      "all_scores": [
+        [
+          0.8215722797872026,
+          500
+        ],
+        [
+          0.8215722797872026,
+          750
+        ],
+        [
+          0.8215722797872026,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-evening_flow-a2c-current-r3": {
+    "episode": 500,
+    "validation_score": 20.588933333333333,
+    "weights": "training/A-evening_flow-a2c-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "3a83ae72b03a06fb54bb47fa5b073d6af73ad9aa8cd1e01b7822f321f613f389",
+    "all_scores": [
+      [
+        20.588933333333333,
+        500
+      ],
+      [
+        20.588933333333333,
+        750
+      ],
+      [
+        20.588933333333333,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-evening_flow-a2c-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "3a83ae72b03a06fb54bb47fa5b073d6af73ad9aa8cd1e01b7822f321f613f389",
+      "all_scores": [
+        [
+          0.8215722797872026,
+          500
+        ],
+        [
+          0.8215722797872026,
+          750
+        ],
+        [
+          0.8215722797872026,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 20
+    }
+  },
+  "A-day_cycle-dqn-current-r1": {
+    "episode": 1000,
+    "validation_score": 21.082755555555558,
+    "weights": "training/A-day_cycle-dqn-current-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "d7562fb5e245d007ef86871c93a039bbae0e1d1dc87abaec752ae033818760f4",
+    "all_scores": [
+      [
+        22.89742222222222,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        21.082755555555558,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 1000,
+      "weights": "training/A-day_cycle-dqn-current-r1/checkpoint-1000.pt",
+      "expected_weight_sha256": "d7562fb5e245d007ef86871c93a039bbae0e1d1dc87abaec752ae033818760f4",
+      "all_scores": [
+        [
+          0.8168261282273597,
+          1000
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8302741614939881,
+          500
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 30
+    }
+  },
+  "A-day_cycle-a2c-current-r1": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/A-day_cycle-a2c-current-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "8ddd874d10cc7af950ffc112e766403f613143e37da0b8bff11d65bb3095879d",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-day_cycle-a2c-current-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "8ddd874d10cc7af950ffc112e766403f613143e37da0b8bff11d65bb3095879d",
+      "all_scores": [
+        [
+          0.8878046222851432,
+          500
+        ],
+        [
+          0.8878046222851432,
+          750
+        ],
+        [
+          0.8878046222851432,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 30
+    }
+  },
+  "A-day_cycle-dqn-current-r2": {
+    "episode": 750,
+    "validation_score": 22.303644444444444,
+    "weights": "training/A-day_cycle-dqn-current-r2/checkpoint-750.pt",
+    "expected_weight_sha256": "df00945a695136356adeb2e83d685bbd80a9ba8b78c206b0b84dbbef7070da65",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        22.303644444444444,
+        750
+      ],
+      [
+        23.268533333333334,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-day_cycle-dqn-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "cebde9dc10ea140c9ca493f0e352ce6f6ec5556d55631cb12f26b58d81de34a0",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8318780414314498,
+          750
+        ],
+        [
+          0.8482696382826627,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 30
+        },
+        "C1": {
+          "0": 20,
+          "3": 30
+        }
+      },
+      "fallback": 30
+    }
+  },
+  "A-day_cycle-a2c-current-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/A-day_cycle-a2c-current-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "eec1625a268c1b0332823185b94990723934be1ec861e27371764243c605429f",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-day_cycle-a2c-current-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "eec1625a268c1b0332823185b94990723934be1ec861e27371764243c605429f",
+      "all_scores": [
+        [
+          0.8878046222851432,
+          500
+        ],
+        [
+          0.8878046222851432,
+          750
+        ],
+        [
+          0.8878046222851432,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 30,
+          "3": 30
+        },
+        "C1": {
+          "0": 30,
+          "3": 30
+        }
+      },
+      "fallback": 30
+    }
+  },
+  "A-day_cycle-dqn-current-r3": {
+    "episode": 750,
+    "validation_score": 22.34631111111111,
+    "weights": "training/A-day_cycle-dqn-current-r3/checkpoint-750.pt",
+    "expected_weight_sha256": "2cdb9be5e906840527861adf339c25bf2dec7bfc2720e72085258e91fca86507",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        22.34631111111111,
+        750
+      ],
+      [
+        23.294222222222224,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/A-day_cycle-dqn-current-r3/checkpoint-750.pt",
+      "expected_weight_sha256": "2cdb9be5e906840527861adf339c25bf2dec7bfc2720e72085258e91fca86507",
+      "all_scores": [
+        [
+          0.8013926637344881,
+          750
+        ],
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8514953523600464,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 30
+        },
+        "C1": {
+          "0": 20,
+          "3": 30
+        }
+      },
+      "fallback": 30
+    }
+  },
+  "A-day_cycle-a2c-current-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/A-day_cycle-a2c-current-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "2c491bed9e8c4fa81158b809eac73ed5608cb141e9cc7ee63632664c54ddce99",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/A-day_cycle-a2c-current-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "2c491bed9e8c4fa81158b809eac73ed5608cb141e9cc7ee63632664c54ddce99",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8284378783346187,
+          1000
+        ]
+      ]
+    },
+    "table": {
+      "values": {
+        "B1": {
+          "0": 20,
+          "3": 20
+        },
+        "C1": {
+          "0": 20,
+          "3": 20
+        }
+      },
+      "fallback": 30
+    }
+  },
+  "E-pedestrian_heavy-dqn-vehicle_seconds-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "e582237ab4122defb476f53f00bea9f5e5da55f49452f4815694772e9e891f75",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "e582237ab4122defb476f53f00bea9f5e5da55f49452f4815694772e9e891f75",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-vehicle_seconds-r1": {
+    "episode": 500,
+    "validation_score": 33.3865,
+    "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "daec26f808933de8a8373f86bd1ce1ed0d72ba8c7ca73020eb39af0241cf9f5c",
+    "all_scores": [
+      [
+        33.3865,
+        500
+      ],
+      [
+        33.3865,
+        750
+      ],
+      [
+        33.3865,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "daec26f808933de8a8373f86bd1ce1ed0d72ba8c7ca73020eb39af0241cf9f5c",
+      "all_scores": [
+        [
+          1.2448754493343268,
+          500
+        ],
+        [
+          1.2448754493343268,
+          750
+        ],
+        [
+          1.2448754493343268,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-vehicle_seconds-r2": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "68fd493d3ac5bc68aa411311d52e87d02d9867f20c1a3c1a44fdcf34b390baf7",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "68fd493d3ac5bc68aa411311d52e87d02d9867f20c1a3c1a44fdcf34b390baf7",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-vehicle_seconds-r2": {
+    "episode": 500,
+    "validation_score": 26.362000000000002,
+    "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "7c4c80cbf80e6ccd65acec3e4f2bce0902007648e23ab64b313b1c542407b1a9",
+    "all_scores": [
+      [
+        26.362000000000002,
+        500
+      ],
+      [
+        26.362000000000002,
+        750
+      ],
+      [
+        26.362000000000002,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "7c4c80cbf80e6ccd65acec3e4f2bce0902007648e23ab64b313b1c542407b1a9",
+      "all_scores": [
+        [
+          0.9432345206223978,
+          500
+        ],
+        [
+          0.9432345206223978,
+          750
+        ],
+        [
+          0.9432345206223978,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-vehicle_seconds-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "1137de262a798f4cd53eb0753f620c961bc7952d2020fffe5802f7b93a9e5b43",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "1137de262a798f4cd53eb0753f620c961bc7952d2020fffe5802f7b93a9e5b43",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-vehicle_seconds-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "378f22df983b5afc1e034f9538a3cede079699abd070d254fc185bcd8ed7ba2b",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "378f22df983b5afc1e034f9538a3cede079699abd070d254fc185bcd8ed7ba2b",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "ae0c97ee5f56f3643644475830a77d5b589702367517b21b4e5c078d9e32b6a9",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "ae0c97ee5f56f3643644475830a77d5b589702367517b21b4e5c078d9e32b6a9",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "587496ea9b851493bd3a0d30af6fd14b475c60c4e3d20f6816da5c55c4b276b7",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "587496ea9b851493bd3a0d30af6fd14b475c60c4e3d20f6816da5c55c4b276b7",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r2": {
+    "episode": 750,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r2/checkpoint-750.pt",
+    "expected_weight_sha256": "97d695d4125c7677e4b03682b4a29c174a317436675871974cb629ffbd271a43",
+    "all_scores": [
+      [
+        24.125,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r2/checkpoint-750.pt",
+      "expected_weight_sha256": "97d695d4125c7677e4b03682b4a29c174a317436675871974cb629ffbd271a43",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ],
+        [
+          0.8135717707418347,
+          500
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r2": {
+    "episode": 500,
+    "validation_score": 26.362000000000002,
+    "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "9df8c1c07c8341bfa6061fae4c0c6b0c9a173472fd51d47121c8d91f5891e9ad",
+    "all_scores": [
+      [
+        26.362000000000002,
+        500
+      ],
+      [
+        26.362000000000002,
+        750
+      ],
+      [
+        26.362000000000002,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "9df8c1c07c8341bfa6061fae4c0c6b0c9a173472fd51d47121c8d91f5891e9ad",
+      "all_scores": [
+        [
+          0.9432345206223978,
+          500
+        ],
+        [
+          0.9432345206223978,
+          750
+        ],
+        [
+          0.9432345206223978,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "c0800bd62500a608213dbe94335a0e1c3008fca37c0dda5da5ba0b677c92ce98",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-vehicle_seconds_no_stops-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "c0800bd62500a608213dbe94335a0e1c3008fca37c0dda5da5ba0b677c92ce98",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "e671f4edcf799a2b1409c47c14d2dda707c25fa9db0685caca2e4ba886fd47f6",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-vehicle_seconds_no_stops-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "e671f4edcf799a2b1409c47c14d2dda707c25fa9db0685caca2e4ba886fd47f6",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-pedestrians-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-pedestrians-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "c0f777fb4116e5a80a1776601d6ffdcd00fd9c49e2a65947ca003e07c6bfc8ce",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-pedestrians-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "c0f777fb4116e5a80a1776601d6ffdcd00fd9c49e2a65947ca003e07c6bfc8ce",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-pedestrians-r1": {
+    "episode": 750,
+    "validation_score": 26.362000000000002,
+    "weights": "training/E-pedestrian_heavy-a2c-pedestrians-r1/checkpoint-750.pt",
+    "expected_weight_sha256": "bcf51e45a8ef5bc67d54f19b3b21e7a72decc81a7fb519b7a1f156d13e6f4612",
+    "all_scores": [
+      [
+        29.558999999999997,
+        500
+      ],
+      [
+        26.362000000000002,
+        750
+      ],
+      [
+        26.362000000000002,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/E-pedestrian_heavy-a2c-pedestrians-r1/checkpoint-750.pt",
+      "expected_weight_sha256": "bcf51e45a8ef5bc67d54f19b3b21e7a72decc81a7fb519b7a1f156d13e6f4612",
+      "all_scores": [
+        [
+          0.9432345206223978,
+          750
+        ],
+        [
+          0.9432345206223978,
+          1000
+        ],
+        [
+          1.079316114117873,
+          500
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-pedestrians-r2": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-pedestrians-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "1e01567e4ca2de55d48de8072384c3650d51da787e86193bc5f0133e73359297",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-pedestrians-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "1e01567e4ca2de55d48de8072384c3650d51da787e86193bc5f0133e73359297",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-pedestrians-r2": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-a2c-pedestrians-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "84b144ef36fe2ae7c272b2f84124b6ad99fd4c5e9ab0b68ab72c5d6df045c38f",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-pedestrians-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "84b144ef36fe2ae7c272b2f84124b6ad99fd4c5e9ab0b68ab72c5d6df045c38f",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-dqn-pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-dqn-pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "2b6bb8955f95fae9e506698fe98bb7b63f80391ce81db8324e18fb45a52a7b82",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-dqn-pedestrians-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "2b6bb8955f95fae9e506698fe98bb7b63f80391ce81db8324e18fb45a52a7b82",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-pedestrian_heavy-a2c-pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/E-pedestrian_heavy-a2c-pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "8652616c1fb7074c8394b2d15882f1c5abe23da12b7301edabb5226ea88dc66b",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-pedestrian_heavy-a2c-pedestrians-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "8652616c1fb7074c8394b2d15882f1c5abe23da12b7301edabb5226ea88dc66b",
+      "all_scores": [
+        [
+          0.7951010810156285,
+          500
+        ],
+        [
+          0.7951010810156285,
+          750
+        ],
+        [
+          0.7951010810156285,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-vehicle_seconds-r1": {
+    "episode": 750,
+    "validation_score": 21.544711111111113,
+    "weights": "training/E-day_cycle-dqn-vehicle_seconds-r1/checkpoint-750.pt",
+    "expected_weight_sha256": "742fd21976844b8450062ba7f6a8616dcb55ff0f391a413e6c850d05e5dd37ca",
+    "all_scores": [
+      [
+        23.273777777777777,
+        500
+      ],
+      [
+        21.544711111111113,
+        750
+      ],
+      [
+        21.737244444444443,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/E-day_cycle-dqn-vehicle_seconds-r1/checkpoint-750.pt",
+      "expected_weight_sha256": "742fd21976844b8450062ba7f6a8616dcb55ff0f391a413e6c850d05e5dd37ca",
+      "all_scores": [
+        [
+          0.7679842157546182,
+          750
+        ],
+        [
+          0.7749932989608898,
+          1000
+        ],
+        [
+          0.7985453052270252,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-vehicle_seconds-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/E-day_cycle-a2c-vehicle_seconds-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "d4bd959dfe5b70f284fb0296aec2bdc2bbda2dae910ee8b9fe53a062e2262c37",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-vehicle_seconds-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "d4bd959dfe5b70f284fb0296aec2bdc2bbda2dae910ee8b9fe53a062e2262c37",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8284378783346187,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-vehicle_seconds-r2": {
+    "episode": 1000,
+    "validation_score": 21.710755555555554,
+    "weights": "training/E-day_cycle-dqn-vehicle_seconds-r2/checkpoint-1000.pt",
+    "expected_weight_sha256": "62d44da1104c928bc8e9865655d0fc6962efea60cec36d2002aad997d50e0d3b",
+    "all_scores": [
+      [
+        22.265066666666666,
+        500
+      ],
+      [
+        21.96977777777778,
+        750
+      ],
+      [
+        21.710755555555554,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 1000,
+      "weights": "training/E-day_cycle-dqn-vehicle_seconds-r2/checkpoint-1000.pt",
+      "expected_weight_sha256": "62d44da1104c928bc8e9865655d0fc6962efea60cec36d2002aad997d50e0d3b",
+      "all_scores": [
+        [
+          0.7670751053707703,
+          1000
+        ],
+        [
+          0.7736698183384201,
+          750
+        ],
+        [
+          0.8233725236577819,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-vehicle_seconds-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/E-day_cycle-a2c-vehicle_seconds-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "d22efb614a961b75c8b2ee8cb0f8de33630c10c996c983131ca9524ada56c89c",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-vehicle_seconds-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "d22efb614a961b75c8b2ee8cb0f8de33630c10c996c983131ca9524ada56c89c",
+      "all_scores": [
+        [
+          0.8878046222851432,
+          500
+        ],
+        [
+          0.8878046222851432,
+          750
+        ],
+        [
+          0.8878046222851432,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-vehicle_seconds-r3": {
+    "episode": 1000,
+    "validation_score": 20.900266666666667,
+    "weights": "training/E-day_cycle-dqn-vehicle_seconds-r3/checkpoint-1000.pt",
+    "expected_weight_sha256": "73d6294328202ca65d38306cf579403a53790b891b1812094e3b6d08e55bc893",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        21.849511111111113,
+        750
+      ],
+      [
+        20.900266666666667,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/E-day_cycle-dqn-vehicle_seconds-r3/checkpoint-750.pt",
+      "expected_weight_sha256": "073c18a415c208821fcb359c878520b23b3fcd76534094643ef319006ebc41d6",
+      "all_scores": [
+        [
+          0.7708815266993272,
+          750
+        ],
+        [
+          0.7713566395384949,
+          1000
+        ],
+        [
+          0.8284378783346187,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-vehicle_seconds-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/E-day_cycle-a2c-vehicle_seconds-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "4502592051787e27c79833caa2d856b242d708c611190b85ea4a8a07a39a34b8",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-vehicle_seconds-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "4502592051787e27c79833caa2d856b242d708c611190b85ea4a8a07a39a34b8",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8284378783346187,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-vehicle_seconds_no_stops-r1": {
+    "episode": 1000,
+    "validation_score": 21.6688,
+    "weights": "training/E-day_cycle-dqn-vehicle_seconds_no_stops-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "146db7e33ef04fa900edaee7513e10f4273fdc5ffdd9f9a7676f3b5e789bf03d",
+    "all_scores": [
+      [
+        22.36568888888889,
+        500
+      ],
+      [
+        22.552444444444443,
+        750
+      ],
+      [
+        21.6688,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 1000,
+      "weights": "training/E-day_cycle-dqn-vehicle_seconds_no_stops-r1/checkpoint-1000.pt",
+      "expected_weight_sha256": "146db7e33ef04fa900edaee7513e10f4273fdc5ffdd9f9a7676f3b5e789bf03d",
+      "all_scores": [
+        [
+          0.7701771587333868,
+          1000
+        ],
+        [
+          0.7853880224022081,
+          750
+        ],
+        [
+          0.7877644013961143,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-vehicle_seconds_no_stops-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/E-day_cycle-a2c-vehicle_seconds_no_stops-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "298a7ed5b85d5e0c399b11362722bdc88b9de7930a5c84316f53eff4c2054561",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-vehicle_seconds_no_stops-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "298a7ed5b85d5e0c399b11362722bdc88b9de7930a5c84316f53eff4c2054561",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8284378783346187,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-vehicle_seconds_no_stops-r2": {
+    "episode": 500,
+    "validation_score": 21.54008888888889,
+    "weights": "training/E-day_cycle-dqn-vehicle_seconds_no_stops-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "6196c4a9a398f97f637ff59e78941ade051388c20d2bd53acadfee397c85d683",
+    "all_scores": [
+      [
+        21.54008888888889,
+        500
+      ],
+      [
+        21.9688,
+        750
+      ],
+      [
+        21.95262222222222,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-dqn-vehicle_seconds_no_stops-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "6196c4a9a398f97f637ff59e78941ade051388c20d2bd53acadfee397c85d683",
+      "all_scores": [
+        [
+          0.766539895921216,
+          500
+        ],
+        [
+          0.7724241000569907,
+          750
+        ],
+        [
+          0.7733692358756196,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-vehicle_seconds_no_stops-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/E-day_cycle-a2c-vehicle_seconds_no_stops-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "4b90a44f285db3250c0d8a61fb52feef5a00882e44170cb73e17575eb06fc810",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-vehicle_seconds_no_stops-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "4b90a44f285db3250c0d8a61fb52feef5a00882e44170cb73e17575eb06fc810",
+      "all_scores": [
+        [
+          0.8878046222851432,
+          500
+        ],
+        [
+          0.8878046222851432,
+          750
+        ],
+        [
+          0.8878046222851432,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-vehicle_seconds_no_stops-r3": {
+    "episode": 1000,
+    "validation_score": 21.37751111111111,
+    "weights": "training/E-day_cycle-dqn-vehicle_seconds_no_stops-r3/checkpoint-1000.pt",
+    "expected_weight_sha256": "732c14e61b4eba6417b249f45129cb61dfaa4c0c7d0d6ba35de0e7fab432836c",
+    "all_scores": [
+      [
+        21.706133333333334,
+        500
+      ],
+      [
+        21.604622222222222,
+        750
+      ],
+      [
+        21.37751111111111,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 1000,
+      "weights": "training/E-day_cycle-dqn-vehicle_seconds_no_stops-r3/checkpoint-1000.pt",
+      "expected_weight_sha256": "732c14e61b4eba6417b249f45129cb61dfaa4c0c7d0d6ba35de0e7fab432836c",
+      "all_scores": [
+        [
+          0.7664959109327036,
+          1000
+        ],
+        [
+          0.7741724153768936,
+          750
+        ],
+        [
+          0.7757917702952755,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-vehicle_seconds_no_stops-r3": {
+    "episode": 500,
+    "validation_score": 26.822400000000002,
+    "weights": "training/E-day_cycle-a2c-vehicle_seconds_no_stops-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "f793755b7707c5c1b463ed65546f7a7ee660d7e09fb6da7f74da49e5785bfed4",
+    "all_scores": [
+      [
+        26.822400000000002,
+        500
+      ],
+      [
+        26.822400000000002,
+        750
+      ],
+      [
+        26.822400000000002,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-vehicle_seconds_no_stops-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "f793755b7707c5c1b463ed65546f7a7ee660d7e09fb6da7f74da49e5785bfed4",
+      "all_scores": [
+        [
+          1.0542829981475297,
+          500
+        ],
+        [
+          1.0542829981475297,
+          750
+        ],
+        [
+          1.0542829981475297,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-pedestrians-r1": {
+    "episode": 1000,
+    "validation_score": 21.43902222222222,
+    "weights": "training/E-day_cycle-dqn-pedestrians-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "743062a75334d2772518e664daec8db7f4b496a7e2a925f2298ade8fa2a190da",
+    "all_scores": [
+      [
+        22.7784,
+        500
+      ],
+      [
+        21.930666666666667,
+        750
+      ],
+      [
+        21.43902222222222,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/E-day_cycle-dqn-pedestrians-r1/checkpoint-750.pt",
+      "expected_weight_sha256": "594e0fea076d9272dd7c1bca060689feeb5489b0ae6835f02ded17223342512a",
+      "all_scores": [
+        [
+          0.7728834175357169,
+          750
+        ],
+        [
+          0.7908278662573458,
+          500
+        ],
+        [
+          0.7934544470447816,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-pedestrians-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/E-day_cycle-a2c-pedestrians-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "eacba66e76191631bdd909c4365d95a1fedb6cb554b27cd24b727249852aa614",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-pedestrians-r1/checkpoint-500.pt",
+      "expected_weight_sha256": "eacba66e76191631bdd909c4365d95a1fedb6cb554b27cd24b727249852aa614",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8284378783346187,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-pedestrians-r2": {
+    "episode": 1000,
+    "validation_score": 21.337155555555555,
+    "weights": "training/E-day_cycle-dqn-pedestrians-r2/checkpoint-1000.pt",
+    "expected_weight_sha256": "43738f3a59198bf92c57f7b6aee1282443996c2f71d1a24e8049db3d94c79797",
+    "all_scores": [
+      [
+        22.132533333333335,
+        500
+      ],
+      [
+        21.571733333333334,
+        750
+      ],
+      [
+        21.337155555555555,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 1000,
+      "weights": "training/E-day_cycle-dqn-pedestrians-r2/checkpoint-1000.pt",
+      "expected_weight_sha256": "43738f3a59198bf92c57f7b6aee1282443996c2f71d1a24e8049db3d94c79797",
+      "all_scores": [
+        [
+          0.7624377531278277,
+          1000
+        ],
+        [
+          0.7636227641227782,
+          750
+        ],
+        [
+          0.778049361793425,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-pedestrians-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/E-day_cycle-a2c-pedestrians-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "c5cd0cabb6b8577eb1a58c05edc5f26dc9a48ecedba32f5015fc56ae466b8389",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-pedestrians-r2/checkpoint-500.pt",
+      "expected_weight_sha256": "c5cd0cabb6b8577eb1a58c05edc5f26dc9a48ecedba32f5015fc56ae466b8389",
+      "all_scores": [
+        [
+          0.8878046222851432,
+          500
+        ],
+        [
+          0.8878046222851432,
+          750
+        ],
+        [
+          0.8878046222851432,
+          1000
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-dqn-pedestrians-r3": {
+    "episode": 1000,
+    "validation_score": 21.4592,
+    "weights": "training/E-day_cycle-dqn-pedestrians-r3/checkpoint-1000.pt",
+    "expected_weight_sha256": "b9d7d4bdb82c34cd43a8b11326c0c4d7d30780d1966a34eff346918efbed90dd",
+    "all_scores": [
+      [
+        25.066933333333335,
+        500
+      ],
+      [
+        22.153155555555557,
+        750
+      ],
+      [
+        21.4592,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 750,
+      "weights": "training/E-day_cycle-dqn-pedestrians-r3/checkpoint-750.pt",
+      "expected_weight_sha256": "15fefd12a0a10858c55a14de855d14448b93051750f2bda86e770bca59e8b065",
+      "all_scores": [
+        [
+          0.7750877378882993,
+          750
+        ],
+        [
+          0.8052086171692588,
+          1000
+        ],
+        [
+          0.8289919408796071,
+          500
+        ]
+      ]
+    }
+  },
+  "E-day_cycle-a2c-pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/E-day_cycle-a2c-pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "eaade490ca7b1a64ffecda9601367a08d3591a0668f83f94540b70a2dc9abd9e",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ],
+    "joint": {
+      "episode": 500,
+      "weights": "training/E-day_cycle-a2c-pedestrians-r3/checkpoint-500.pt",
+      "expected_weight_sha256": "eaade490ca7b1a64ffecda9601367a08d3591a0668f83f94540b70a2dc9abd9e",
+      "all_scores": [
+        [
+          0.8284378783346187,
+          500
+        ],
+        [
+          0.8284378783346187,
+          750
+        ],
+        [
+          0.8284378783346187,
+          1000
+        ]
+      ]
+    }
+  },
+  "F-pedestrian_heavy-dqn-mask_pedestrians-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-dqn-mask_pedestrians-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "73e90d21482466d2a729ffa0820b293821bd786340de533b96742dd94f18fd6b",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-a2c-mask_pedestrians-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-a2c-mask_pedestrians-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "4f5382bbe7e1836d14a16707a3c0597c1652477dcdb64a2cb6eaf803854790df",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-dqn-mask_pedestrians-r2": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-dqn-mask_pedestrians-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "fa444095558d34192aaf1a2fdcc99720ef6475f3ce75e7eb09829ba433adadcb",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-a2c-mask_pedestrians-r2": {
+    "episode": 500,
+    "validation_score": 26.362000000000002,
+    "weights": "training/F-pedestrian_heavy-a2c-mask_pedestrians-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "a091107a286aeee57f1834d1449493dd72491a1858bc70bed7df5311bd5a01e7",
+    "all_scores": [
+      [
+        26.362000000000002,
+        500
+      ],
+      [
+        26.362000000000002,
+        750
+      ],
+      [
+        26.362000000000002,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-dqn-mask_pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-dqn-mask_pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "167e42c4d832aab752668d79f23c5bcec301940956777f55872e4e9b2226a703",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-a2c-mask_pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-a2c-mask_pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "24240fcc3446137e6a3f111b0005578745214ce01db782ce8d43f97679fc900f",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-dqn-mask_link-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-dqn-mask_link-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "587de9dd40082128da505a668570584d5e031aa208705e1d36d9cf597d1a6bec",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-a2c-mask_link-r1": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-a2c-mask_link-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "4daa2c893d77f74f0ce5ce3a5505c738e8a6d787488859d53a7a419c131dfa6c",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-dqn-mask_link-r2": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-dqn-mask_link-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "484dae761dd90c097e973571fbda4e9da6eade1c303bcc1bb43450354de09d2c",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-a2c-mask_link-r2": {
+    "episode": 500,
+    "validation_score": 26.362000000000002,
+    "weights": "training/F-pedestrian_heavy-a2c-mask_link-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "0795049619a0ba6d851bac0ad33c8347efc6e384798c22dbd13031ef6818b880",
+    "all_scores": [
+      [
+        26.362000000000002,
+        500
+      ],
+      [
+        26.362000000000002,
+        750
+      ],
+      [
+        26.362000000000002,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-dqn-mask_link-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-dqn-mask_link-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "63cced1ed861adfa1d70f655832e546c7984530825cb16352264dbc718545561",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-pedestrian_heavy-a2c-mask_link-r3": {
+    "episode": 500,
+    "validation_score": 23.912,
+    "weights": "training/F-pedestrian_heavy-a2c-mask_link-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "87449baa141534e37ff3cf371bc59046a1c34258441f5f93cf44000cfc84940b",
+    "all_scores": [
+      [
+        23.912,
+        500
+      ],
+      [
+        23.912,
+        750
+      ],
+      [
+        23.912,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-dqn-mask_pedestrians-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/F-day_cycle-dqn-mask_pedestrians-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "48f8a635fcb88021b0b07400272241abce28fdaeb487d245ed79d2ccf0c3cc8b",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-a2c-mask_pedestrians-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/F-day_cycle-a2c-mask_pedestrians-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "62e178d35491d383e8609c33b7b8548165e60ff5e4e91a0c87d8bc0bbf48fc03",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-dqn-mask_pedestrians-r2": {
+    "episode": 1000,
+    "validation_score": 22.829333333333334,
+    "weights": "training/F-day_cycle-dqn-mask_pedestrians-r2/checkpoint-1000.pt",
+    "expected_weight_sha256": "f4a6621c6d8ba78868b944d9c8bab1caaab8bfbb2edd08f6e8910928a9eaba48",
+    "all_scores": [
+      [
+        23.1968,
+        500
+      ],
+      [
+        23.462755555555557,
+        750
+      ],
+      [
+        22.829333333333334,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-a2c-mask_pedestrians-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/F-day_cycle-a2c-mask_pedestrians-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "a868d5176a376b57c90a210a9406ab9557bf38744e4a4504b0e8b31cb42f9c54",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-dqn-mask_pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/F-day_cycle-dqn-mask_pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "04aae41b930dd0e15b97c1a2ee115e798c30690ee3f4d567261f3ada00e43564",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-a2c-mask_pedestrians-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/F-day_cycle-a2c-mask_pedestrians-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "fcb06e01bac2f6aaed3cfcaf3750f340ad0bb421b3952ff90ef17b27dd29b730",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-dqn-mask_link-r1": {
+    "episode": 1000,
+    "validation_score": 21.082755555555558,
+    "weights": "training/F-day_cycle-dqn-mask_link-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "d7562fb5e245d007ef86871c93a039bbae0e1d1dc87abaec752ae033818760f4",
+    "all_scores": [
+      [
+        22.89742222222222,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        21.082755555555558,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-a2c-mask_link-r1": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/F-day_cycle-a2c-mask_link-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "8ddd874d10cc7af950ffc112e766403f613143e37da0b8bff11d65bb3095879d",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-dqn-mask_link-r2": {
+    "episode": 750,
+    "validation_score": 22.303644444444444,
+    "weights": "training/F-day_cycle-dqn-mask_link-r2/checkpoint-750.pt",
+    "expected_weight_sha256": "df00945a695136356adeb2e83d685bbd80a9ba8b78c206b0b84dbbef7070da65",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        22.303644444444444,
+        750
+      ],
+      [
+        23.268533333333334,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-a2c-mask_link-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/F-day_cycle-a2c-mask_link-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "eec1625a268c1b0332823185b94990723934be1ec861e27371764243c605429f",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-dqn-mask_link-r3": {
+    "episode": 750,
+    "validation_score": 22.34631111111111,
+    "weights": "training/F-day_cycle-dqn-mask_link-r3/checkpoint-750.pt",
+    "expected_weight_sha256": "2cdb9be5e906840527861adf339c25bf2dec7bfc2720e72085258e91fca86507",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        22.34631111111111,
+        750
+      ],
+      [
+        23.294222222222224,
+        1000
+      ]
+    ]
+  },
+  "F-day_cycle-a2c-mask_link-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/F-day_cycle-a2c-mask_link-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "2c491bed9e8c4fa81158b809eac73ed5608cb141e9cc7ee63632664c54ddce99",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "H-morning_flow-a2c-entropy005-r1": {
+    "episode": 750,
+    "validation_score": 39.00866666666667,
+    "weights": "training/H-morning_flow-a2c-entropy005-r1/checkpoint-750.pt",
+    "expected_weight_sha256": "9cba9d16cea7c503fcf6dac3b69a04197d6a9dc6a446e1ccfebac2d1af40f6a4",
+    "all_scores": [
+      [
+        44.72866666666667,
+        500
+      ],
+      [
+        39.00866666666667,
+        750
+      ],
+      [
+        39.00866666666667,
+        1000
+      ]
+    ]
+  },
+  "H-morning_flow-a2c-entropy005-r2": {
+    "episode": 500,
+    "validation_score": 39.00866666666667,
+    "weights": "training/H-morning_flow-a2c-entropy005-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "7df070697adb9ba9b342707d103e8f28910f6a3f184ce82d74f6d4dc98146645",
+    "all_scores": [
+      [
+        39.00866666666667,
+        500
+      ],
+      [
+        39.00866666666667,
+        750
+      ],
+      [
+        39.00866666666667,
+        1000
+      ]
+    ]
+  },
+  "H-morning_flow-a2c-entropy005-r3": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/H-morning_flow-a2c-entropy005-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "db2ff9dccc918682a1bb6dd3dcc6e5148fa519338c21938e809264d4650425ab",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ]
+  },
+  "H-morning_flow-a2c-normalized_advantage-r1": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/H-morning_flow-a2c-normalized_advantage-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "74440892b4fdbf1d786eb0a11ca2d1894f2a1b4b7fb6e61acda0b38a75497cca",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ]
+  },
+  "H-morning_flow-a2c-normalized_advantage-r2": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/H-morning_flow-a2c-normalized_advantage-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "bf6a571bef17b38b418beb8a65e789b0bf9a3c956121960dc311dc4c581d4647",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ]
+  },
+  "H-morning_flow-a2c-normalized_advantage-r3": {
+    "episode": 500,
+    "validation_score": 38.88453333333333,
+    "weights": "training/H-morning_flow-a2c-normalized_advantage-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "375c22fc53c4e6f1957feb53a38c9bbd1d0156d4d1771214a5822c085b332f7a",
+    "all_scores": [
+      [
+        38.88453333333333,
+        500
+      ],
+      [
+        38.88453333333333,
+        750
+      ],
+      [
+        38.88453333333333,
+        1000
+      ]
+    ]
+  },
+  "H-day_cycle-a2c-entropy005-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/H-day_cycle-a2c-entropy005-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "f87efbd75adcacfa16c5635b727282b909bacc1331a718609fce1949ad9fee0c",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "H-day_cycle-a2c-entropy005-r2": {
+    "episode": 500,
+    "validation_score": 23.712444444444444,
+    "weights": "training/H-day_cycle-a2c-entropy005-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "f4a00e51c257cbc770edd10b4f0e576b7d6fb92182134808a02810a2f590659a",
+    "all_scores": [
+      [
+        23.712444444444444,
+        500
+      ],
+      [
+        23.712444444444444,
+        750
+      ],
+      [
+        23.712444444444444,
+        1000
+      ]
+    ]
+  },
+  "H-day_cycle-a2c-entropy005-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/H-day_cycle-a2c-entropy005-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "f281946d4282d16d793f771338173bdf30ab399632d330a0ed76a2fc87303669",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "H-day_cycle-a2c-normalized_advantage-r1": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/H-day_cycle-a2c-normalized_advantage-r1/checkpoint-500.pt",
+    "expected_weight_sha256": "518989755bb870c02aba9ea52d7f76cf90514d29e542bfed6a64e609ed60be95",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "H-day_cycle-a2c-normalized_advantage-r2": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/H-day_cycle-a2c-normalized_advantage-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "9d4579f036cebff877a2a255974abcc013baff10d71d0778f5cc5d6afc392ddc",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "H-day_cycle-a2c-normalized_advantage-r3": {
+    "episode": 500,
+    "validation_score": 25.066755555555556,
+    "weights": "training/H-day_cycle-a2c-normalized_advantage-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "0196da539dd0e75814ab5fdb63e06f3b2d55ea533dfc6a3a93be8ef897f79bf0",
+    "all_scores": [
+      [
+        25.066755555555556,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        25.066755555555556,
+        1000
+      ]
+    ]
+  },
+  "I-morning_flow-dqn-huber-r1": {
+    "episode": 1000,
+    "validation_score": 35.3436,
+    "weights": "training/I-morning_flow-dqn-huber-r1/checkpoint-1000.pt",
+    "expected_weight_sha256": "2d722e597f55aa2ff6a366362617259ada2bf6f774b60c3422256380fda6eaac",
+    "all_scores": [
+      [
+        38.29,
+        500
+      ],
+      [
+        37.555733333333336,
+        750
+      ],
+      [
+        35.3436,
+        1000
+      ]
+    ]
+  },
+  "I-morning_flow-dqn-huber-r2": {
+    "episode": 500,
+    "validation_score": 37.86333333333333,
+    "weights": "training/I-morning_flow-dqn-huber-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "1703de8da5a113358240ff13d3fab2d53560b8f106e7382388c2e64eefec8ae5",
+    "all_scores": [
+      [
+        37.86333333333333,
+        500
+      ],
+      [
+        38.221466666666664,
+        750
+      ],
+      [
+        42.11853333333333,
+        1000
+      ]
+    ]
+  },
+  "I-morning_flow-dqn-huber-r3": {
+    "episode": 500,
+    "validation_score": 37.669066666666666,
+    "weights": "training/I-morning_flow-dqn-huber-r3/checkpoint-500.pt",
+    "expected_weight_sha256": "ec6b972905f76844739370e1f1bef4fab44fb87c629802ad157f27bad11efa37",
+    "all_scores": [
+      [
+        37.669066666666666,
+        500
+      ],
+      [
+        38.6096,
+        750
+      ],
+      [
+        41.595866666666666,
+        1000
+      ]
+    ]
+  },
+  "I-day_cycle-dqn-huber-r1": {
+    "episode": 750,
+    "validation_score": 21.924622222222222,
+    "weights": "training/I-day_cycle-dqn-huber-r1/checkpoint-750.pt",
+    "expected_weight_sha256": "669b04271933d966010b0d6cceedc8dc62d7affb53b8b75f74eaf0e6c7da1d1c",
+    "all_scores": [
+      [
+        25.0608,
+        500
+      ],
+      [
+        21.924622222222222,
+        750
+      ],
+      [
+        22.689511111111113,
+        1000
+      ]
+    ]
+  },
+  "I-day_cycle-dqn-huber-r2": {
+    "episode": 500,
+    "validation_score": 22.794044444444445,
+    "weights": "training/I-day_cycle-dqn-huber-r2/checkpoint-500.pt",
+    "expected_weight_sha256": "545ceef1cdc8b52537cfda0f5f061365682016448e8a3267a78bf870043d0a0c",
+    "all_scores": [
+      [
+        22.794044444444445,
+        500
+      ],
+      [
+        24.640533333333334,
+        750
+      ],
+      [
+        23.0912,
+        1000
+      ]
+    ]
+  },
+  "I-day_cycle-dqn-huber-r3": {
+    "episode": 1000,
+    "validation_score": 21.48471111111111,
+    "weights": "training/I-day_cycle-dqn-huber-r3/checkpoint-1000.pt",
+    "expected_weight_sha256": "09c8ba0091bc2b0df7eb048bca0284e57df981b0933bcc8939e7ec191da51d2a",
+    "all_scores": [
+      [
+        22.7792,
+        500
+      ],
+      [
+        25.066755555555556,
+        750
+      ],
+      [
+        21.48471111111111,
+        1000
+      ]
+    ]
+  },
+  "G-mixed-dqn-current-r1": {
+    "episode": 3000,
+    "validation_score": 0.8492619750183247,
+    "weights": "training/G-mixed-dqn-current-r1/checkpoint-3000.pt",
+    "expected_weight_sha256": "d668a6a92e194514cfa029db117b8608182bd48ed7177d909c38b68ad085239d",
+    "all_scores": [
+      [
+        0.8492619750183247,
+        3000
+      ],
+      [
+        0.8762850941418778,
+        4500
+      ],
+      [
+        0.8866238399103529,
+        6000
+      ]
+    ]
+  },
+  "G-mixed-a2c-current-r1": {
+    "episode": 3000,
+    "validation_score": 0.9002260167368916,
+    "weights": "training/G-mixed-a2c-current-r1/checkpoint-3000.pt",
+    "expected_weight_sha256": "fface0dd4dc29199b9a968457410d4eca884ff04d5819dc253d1e3fbdd16ffe8",
+    "all_scores": [
+      [
+        0.9002260167368916,
+        3000
+      ],
+      [
+        0.9002260167368916,
+        4500
+      ],
+      [
+        0.9002260167368916,
+        6000
+      ]
+    ]
+  },
+  "G-mixed-dqn-current-r2": {
+    "episode": 4500,
+    "validation_score": 0.8135667751229682,
+    "weights": "training/G-mixed-dqn-current-r2/checkpoint-4500.pt",
+    "expected_weight_sha256": "42b9bfcacce2568aca914ee0b74bc89c5f4e8dd1e8fc7126cdf9cc935a2e22df",
+    "all_scores": [
+      [
+        0.8935154964956448,
+        3000
+      ],
+      [
+        0.8135667751229682,
+        4500
+      ],
+      [
+        0.8220101280509209,
+        6000
+      ]
+    ]
+  },
+  "G-mixed-a2c-current-r2": {
+    "episode": 3000,
+    "validation_score": 0.9404693392664516,
+    "weights": "training/G-mixed-a2c-current-r2/checkpoint-3000.pt",
+    "expected_weight_sha256": "091ed450f9c256c91c3b2bfd39f9256b6224df8c5cd047fcea3b393ef5324e19",
+    "all_scores": [
+      [
+        0.9404693392664516,
+        3000
+      ],
+      [
+        0.9404693392664516,
+        4500
+      ],
+      [
+        0.9404693392664516,
+        6000
+      ]
+    ]
+  },
+  "G-mixed-dqn-current-r3": {
+    "episode": 4500,
+    "validation_score": 0.7883758929420134,
+    "weights": "training/G-mixed-dqn-current-r3/checkpoint-4500.pt",
+    "expected_weight_sha256": "c626c07f83f08d2bb26683fee16cb8bc35f3fd90c6449dae660e723f9f9dbb88",
+    "all_scores": [
+      [
+        0.8351158827228526,
+        3000
+      ],
+      [
+        0.7883758929420134,
+        4500
+      ],
+      [
+        0.8611451427717379,
+        6000
+      ]
+    ]
+  },
+  "G-mixed-a2c-current-r3": {
+    "episode": 3000,
+    "validation_score": 0.9002260167368916,
+    "weights": "training/G-mixed-a2c-current-r3/checkpoint-3000.pt",
+    "expected_weight_sha256": "77439824b42a96b8abbf8dfc48e8ae18a760c7154d5998f05ab83c9ce7e86ef0",
+    "all_scores": [
+      [
+        0.9002260167368916,
+        3000
+      ],
+      [
+        0.9002260167368916,
+        4500
+      ],
+      [
+        0.9002260167368916,
+        6000
+      ]
+    ]
+  }
+}

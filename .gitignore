@@ -22,3 +22,17 @@ trips.trips.xml
 # Private / tooling
 ofek_skills/
 CLAUDE.md
+
+# Source-publication exclusions
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+sim/results/
+sim/models/
+*.pt
+*.pth
+*.log
+.agents/

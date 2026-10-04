@@ -1,0 +1,272 @@
+{
+  "campaign": "final-experiments-20260912",
+  "files": [
+    {
+      "path": "sim/__init__.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/controllers/__init__.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/controllers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/controllers/a2c_controller.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/controllers/a2c_controller.py",
+      "bytes": 3575,
+      "sha256": "242c9d04607429027dbf5e8f44c90590bc9adad5070bde875d66c4a9763409b0",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/controllers/ai_controller.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/controllers/ai_controller.py",
+      "bytes": 6530,
+      "sha256": "2e5236fb07463f5a62a703a4fba25ad040de263795841e70ff22bb2c9f37e5ea",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/controllers/script_controller.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/controllers/script_controller.py",
+      "bytes": 8372,
+      "sha256": "b7a22f1591c5581807622e6ab886881923d078a42968b55d6f3acdb969ea3c6d",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/controllers/script_controller_v0.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/controllers/script_controller_v0.py",
+      "bytes": 4226,
+      "sha256": "af9789a102e0b44d2f59952cab9e5abc8410f63aadb3f871532721dcf2d8251e",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/controllers/timer_controller.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/controllers/timer_controller.py",
+      "bytes": 815,
+      "sha256": "e2f22ba6666c4094ad04efb0ab75e736248cc1319c683f12c852072fea8e0312",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/eval_multiseed.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/eval_multiseed.py",
+      "bytes": 5181,
+      "sha256": "af589d8e6d811836f55e944de3ff854d48993a4d8653f17126d97aab74bd3944",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/modules/__init__.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/modules/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/modules/config.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/modules/config.py",
+      "bytes": 3392,
+      "sha256": "f34127907ec0958e068aa9ac2a11356b8590a9371e22eece42fe618e0570f054",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/modules/data_collection.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/modules/data_collection.py",
+      "bytes": 3716,
+      "sha256": "59e0814fc64107a234ea3164e9bddc2c0ce26b241fc32f69913b9dde944aa13e",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/modules/metrics.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/modules/metrics.py",
+      "bytes": 5207,
+      "sha256": "e9f2637aba833a5b5f95f36746622053b9cb9ba90779118c778e73705bac78f7",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/modules/state_builder.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/modules/state_builder.py",
+      "bytes": 2260,
+      "sha256": "5eb72d28f961585097855e8c71cc103367a6330822dd56cc7003b60da37bc8fd",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/run_experiment.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/run_experiment.py",
+      "bytes": 3765,
+      "sha256": "c6e6cba7c4d4f15c41eaf0668887a9b0ae270098c320aca0c6cd604b5e49f250",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/scenarios/gen_day_cycle.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/scenarios/gen_day_cycle.py",
+      "bytes": 4999,
+      "sha256": "46a3fc0cf6a77a7ece08ac146b3e0f2075fb3dbae4f8eae8fc0e2010eca36ba2",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/scenarios/gen_directional.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/scenarios/gen_directional.py",
+      "bytes": 4744,
+      "sha256": "23d8976d4bf9d53f953e8edb7c4a1c1777e7a59f319b770f438687eb778b53c0",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/scenarios/gen_multiseed_scenarios.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/scenarios/gen_multiseed_scenarios.py",
+      "bytes": 6601,
+      "sha256": "fe478c4657d9c7673dcb55c0fbd4a1a58cea581a8100bc63caa33a6b08605355",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/scenarios/gen_v2_scenarios.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/scenarios/gen_v2_scenarios.py",
+      "bytes": 8128,
+      "sha256": "99d830033c24c029765f14e09bf6f60a537de7cdef06d9ef0161e0ffe48c7617",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/train_a2c.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/train_a2c.py",
+      "bytes": 11048,
+      "sha256": "d96c386dd3faa8465232d1ed8841adc5eed6f785b57f3c79f6566cb1bea7083c",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/train_dqn.py",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/train_dqn.py",
+      "bytes": 14331,
+      "sha256": "5deab6c484197d608b4bec69e40949ce16e1e4da06dafb4162ad7fbc22c0eb66",
+      "matches_received_original": true
+    },
+    {
+      "path": "sim/network/grid.net.xml",
+      "source": "working/final-experiments-20260912/campaign/snapshot/sim/network/grid.net.xml",
+      "bytes": 154068,
+      "sha256": "37c5776ebfaf8164d85e369fdbf3eeaa274710c2181fbcefcbc560ce0eaadb1b",
+      "matches_received_original": true
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/analyze.py",
+      "source": "working/final-experiments-20260912/analyze.py",
+      "bytes": 5678,
+      "sha256": "e73a3bc36d69d9c78803716d3c4400d339265cc86e6dd99472e9e5f4b65e6d4c"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/audit_inputs.py",
+      "source": "working/final-experiments-20260912/audit_inputs.py",
+      "bytes": 3657,
+      "sha256": "d8e1c28fd1c16cf52a60965dac6764de440e9bf37c33146742be786ae118d788"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/build_evaluator.py",
+      "source": "working/final-experiments-20260912/build_evaluator.py",
+      "bytes": 4107,
+      "sha256": "f06d404c3a69134ee55d6770b977de322b9a8db8af2154b3199af28fbc5f4228"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/demand.py",
+      "source": "working/final-experiments-20260912/demand.py",
+      "bytes": 5049,
+      "sha256": "f8c1c24120676b08a400f1357454472c9dbeae77485a40f87352cd0f8e764945"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/evaluator.py",
+      "source": "working/final-experiments-20260912/evaluator.py",
+      "bytes": 11219,
+      "sha256": "525b570e0393da1ccf94fc1957ab9c09547d15ad09734d22d57c7d6ca4f53175"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/finalize_preparation.py",
+      "source": "working/final-experiments-20260912/finalize_preparation.py",
+      "bytes": 2438,
+      "sha256": "31c69a649014a409fee117aa1ed4272922309eaf2ceebe5a189e39c7b0d93f25"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/matrix.py",
+      "source": "working/final-experiments-20260912/matrix.py",
+      "bytes": 8032,
+      "sha256": "c87ad17fcb159ec16850a62ea219152301f649dbee8b7c17b1eda1c1aee819a5"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/preflight.py",
+      "source": "working/final-experiments-20260912/preflight.py",
+      "bytes": 3678,
+      "sha256": "823878bdef20936c061e659eee1373ee7264d34f3482f4e0d107ab7026aec85f"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/runner.py",
+      "source": "working/final-experiments-20260912/runner.py",
+      "bytes": 12119,
+      "sha256": "37e76763dfabd85fa581ae1eb8899f475b0b34ddbc307c16d6f2a64cb1da0930"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/setup_campaign.py",
+      "source": "working/final-experiments-20260912/setup_campaign.py",
+      "bytes": 7263,
+      "sha256": "9b32d0a757330feae78e40e9773a5fc434627aedd0b58c9bcea51620bc8b5208"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/test_preparation.py",
+      "source": "working/final-experiments-20260912/test_preparation.py",
+      "bytes": 3132,
+      "sha256": "e9a188fb63c2f9425a3199c648493e89a94441e0b326e5f31de7281f269235d7"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/variants.py",
+      "source": "working/final-experiments-20260912/variants.py",
+      "bytes": 2436,
+      "sha256": "bf25b18bb443b5769588c4b3abba2eb86ec148e516e926364a80ae5a48184822"
+    },
+    {
+      "path": "campaign-code/final-experiments-20260912/worker.py",
+      "source": "working/final-experiments-20260912/worker.py",
+      "bytes": 21876,
+      "sha256": "ad03eec38d2172a8204ef67568f341b71dcce0610952e9149371a897a0176b15"
+    },
+    {
+      "path": "campaign-metadata/protocol.json",
+      "source": "working/final-experiments-20260912/campaign/protocol.json",
+      "bytes": 3699,
+      "sha256": "3ce3d021964fea130d3fb39ad0f5f35a1424fd2300ad792ab1c849a569880376"
+    },
+    {
+      "path": "campaign-metadata/source-hashes.json",
+      "source": "working/final-experiments-20260912/campaign/source-hashes.json",
+      "bytes": 37501,
+      "sha256": "a92fb805d115a6302b439c8a56a13921b23122283de092a99020081f9c2df15f"
+    },
+    {
+      "path": "campaign-metadata/input-audit.json",
+      "source": "working/final-experiments-20260912/campaign/input-audit.json",
+      "bytes": 6519,
+      "sha256": "d2008e119e50de073479f1f687586345768661d432b8d307d4dece6b545242fe"
+    },
+    {
+      "path": "campaign-metadata/frozen-plan.md",
+      "source": "working/final-experiments-20260912/campaign/frozen-plan.md",
+      "bytes": 24775,
+      "sha256": "accb272af681c12d316df58844797741947e4f661d5a569f21fd871b815c1e6d"
+    },
+    {
+      "path": "campaign-metadata/selections.json",
+      "source": "working/final-experiments-20260912/campaign/selections.json",
+      "bytes": 99956,
+      "sha256": "5c854644cf77ac9bc4a8b044eaaeaed3a18c0536160b2dda1f82097d6f4b3efc"
+    },
+    {
+      "path": "campaign-metadata/fixed-selections.json",
+      "source": "working/final-experiments-20260912/campaign/fixed-selections.json",
+      "bytes": 136,
+      "sha256": "7c2cd2ab2e113b9537bb3aaae4de4b53526d2451b7960a9e984efdd488138c4a"
+    },
+    {
+      "path": "campaign-metadata/test-gate.json",
+      "source": "working/final-experiments-20260912/campaign/test-gate.json",
+      "bytes": 217,
+      "sha256": "d2b638d342e40f31ab89e1921194cf0096bf5952e8098a3e1b0a180dbd358a26"
+    }
+  ]
+}

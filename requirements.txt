@@ -1,0 +1,5 @@
+# Core Python dependencies; original historical versions are not pinned here.
+numpy
+torch
+sumolib
+traci
